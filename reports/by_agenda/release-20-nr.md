@@ -4,6 +4,10 @@
 
 공식 Agenda 기준으로 이 섹션의 결정을 모았습니다. 번호는 최신 회의 기준이며, 회의 간 연결은 같은 섹션 안의 같은 Agenda 제목으로 합니다.
 
+> 이 섹션은 RAN1#126bis 이후 Agenda에 없습니다.
+
+> ⚠️ **RAN1#127는 잠정 결과입니다.** 회의 종료본이 아닌 `Chair notes RAN1#127_v05.docx` 기준이라 결정이 바뀌거나 빠질 수 있습니다. 종료본이 FTP에 올라오면 다음 실행에서 자동으로 교체됩니다.
+
 ## 회의별 결정 수
 
 ```mermaid
@@ -19,44 +23,13 @@ timeline
     RAN1#35;126bis : 결정 103
 ```
 
-## 직전 회의 대비 (RAN1#126 → RAN1#126bis)
+## 최신 회의에는 없는 Agenda
 
-- 신규 결정 103건 (Agreement 98, Working Assumption 2, Conclusion 3)
-- Agenda 신설: 없음
-- Agenda 제외: 없음
+삭제됐거나 제목이 바뀐 Agenda입니다. 제목이 바뀐 경우에도 자동으로 잇지 않으니 위 목록과 비교해 보세요.
 
-**FFS 후속 결정 후보** — RAN1#126 FFS와 키워드가 60% 이상 겹치는 같은 Agenda의 RAN1#126bis 결정입니다. 자동 매칭 후보이므로 FFS 해소 여부는 원문으로 확인하세요.
+### 9.1.1 CSI spatial/frequency compression without temporal aspects (“Case 0”) (마지막: RAN1#126bis)
 
-| Agenda | RAN1#126 FFS | RAN1#126bis 후보 결정 | 일치율 | 출처 |
-|---|---|---|---|---|
-| R2D signals, channels, waveform and procedures | FFS: Whether separate or joint indication is needed | For the transmission parameters of M value, FEC and repetition for the remaining part of broadcast information, which are indicated in the first part, RAN1 select from the followings<br>- Option 2: 4-bits solution<br>  - M value is indicated separately<br>    - 2 bits indication of M values from {2, 6, 12, 24}<br>  - FEC and repetition are jointly indicated<br>    - 2 bits joint indication from restricted combination of FEC and repetition as<br>\| 2 bits codepoint \| FEC \| Repetition \|<br>\| Codepoint 1 \| Disabled \| 1 \|<br>\| Codepoint 2 \| Code rate 1/3 \| 1 \|<br>\| Codepoint 3 \| Code rate 1/3 \| 2 \|<br>\| Codepoint 4 \| Code rate 1/3 \| 4 \|<br>- Option 3: 3-bits solution<br>  - M value, FEC and repetition are jointly indicated<br>    - 3 bits joint indication from restricted combination of M value, FEC and repetition<br>      - FFS: details<br>\| 3 bits codepoint \| M value \| FEC \| Repetition \|<br>\| Codepoint 1 \| 12 \| Disabled \| 1 \|<br>\| Codepoint 2 \| 6 \| Disabled \| 1 \|<br>\| Codepoint 3 \| 12 \| Code rate 1/3 \| 1 \|<br>\| Codepoint 4 \| 2 \| Disabled \| 1 \|<br>\| Codepoint 5 \| 6 \| Code rate 1/3 \| 2 \|<br>\| Codepoint 6 \| 2 \| Code rate 1/3 \| 1 \|<br>\| Codepoint 7 \| 2 \| Code rate 1/3 \| 2 \|<br>\| Codepoint 8 \| 2 \| Code rate 1/3 \| 4 \|<br>- Option 4: 2-bits solution<br>  - FEC is pre-defined as code rate 1/3<br>  - M value and repetition are jointly indicated<br>    - 2 bits joint indication from restricted combination of M value and repetition<br>      - FFS: details<br>\| 2 bits codepoint \| M value \| Repetition \|<br>\| Codepoint 1 \| 6 \| 1 \|<br>\| Codepoint 2 \| 2 \| 1 \|<br>\| Codepoint 3 \| 2 \| 2 \|<br>\| Codepoint 4 \| 2 \| 4 \|<br>- Proponent companies are encouraged to provide details for Option 3 or 4 within RAN1#126bis | 67% | FFS: [Chair notes RAN1#126_eom1](https://www.3gpp.org/ftp/tsg_ran/WG1_RL1/TSGR1_126/Inbox/Chair_notes/Chair%20notes%20RAN1%23126_eom1.docx)<br>[R1-2605362](https://www.3gpp.org/ftp/tsg_ran/WG1_RL1/TSGR1_126/Docs/R1-2605362.zip)<br>후보: [Chair notes RAN1#126bis_eom1](https://www.3gpp.org/ftp/tsg_ran/WG1_RL1/TSGR1_126b/Inbox/Chair_notes/Chair%20notes%20RAN1%23126bis_eom1.docx) |
-| R2D signals, channels, waveform and procedures | FFS: other content of the first part | For R2D periodic transmission of broadcast information,<br>- The first part and the remaining part of broadcast information have separate CRC | 67% | FFS: [Chair notes RAN1#126_eom1](https://www.3gpp.org/ftp/tsg_ran/WG1_RL1/TSGR1_126/Inbox/Chair_notes/Chair%20notes%20RAN1%23126_eom1.docx)<br>[R1-2605363](https://www.3gpp.org/ftp/tsg_ran/WG1_RL1/TSGR1_126/Docs/R1-2605363.zip)<br>후보: [Chair notes RAN1#126bis_eom1](https://www.3gpp.org/ftp/tsg_ran/WG1_RL1/TSGR1_126b/Inbox/Chair_notes/Chair%20notes%20RAN1%23126bis_eom1.docx) |
-| R2D signals, channels, waveform and procedures | FFS: Whether separate or joint indication is needed | For the transmission parameters of M value, FEC and repetition for the remaining part of broadcast information, which are indicated in the first part, RAN1 select from the followings<br>- Option 2: 4-bits solution<br>  - M value is indicated separately<br>    - 2 bits indication of M values from {2, 6, 12, 24}<br>  - FEC and repetition are jointly indicated<br>    - 2 bits joint indication from restricted combination of FEC and repetition as<br>\| 2 bits codepoint \| FEC \| Repetition \|<br>\| Codepoint 1 \| Disabled \| 1 \|<br>\| Codepoint 2 \| Code rate 1/3 \| 1 \|<br>\| Codepoint 3 \| Code rate 1/3 \| 2 \|<br>\| Codepoint 4 \| Code rate 1/3 \| 4 \|<br>- Option 3: 3-bits solution<br>  - M value, FEC and repetition are jointly indicated<br>    - 3 bits joint indication from restricted combination of M value, FEC and repetition<br>      - FFS: details<br>\| 3 bits codepoint \| M value \| FEC \| Repetition \|<br>\| Codepoint 1 \| 12 \| Disabled \| 1 \|<br>\| Codepoint 2 \| 6 \| Disabled \| 1 \|<br>\| Codepoint 3 \| 12 \| Code rate 1/3 \| 1 \|<br>\| Codepoint 4 \| 2 \| Disabled \| 1 \|<br>\| Codepoint 5 \| 6 \| Code rate 1/3 \| 2 \|<br>\| Codepoint 6 \| 2 \| Code rate 1/3 \| 1 \|<br>\| Codepoint 7 \| 2 \| Code rate 1/3 \| 2 \|<br>\| Codepoint 8 \| 2 \| Code rate 1/3 \| 4 \|<br>- Option 4: 2-bits solution<br>  - FEC is pre-defined as code rate 1/3<br>  - M value and repetition are jointly indicated<br>    - 2 bits joint indication from restricted combination of M value and repetition<br>      - FFS: details<br>\| 2 bits codepoint \| M value \| Repetition \|<br>\| Codepoint 1 \| 6 \| 1 \|<br>\| Codepoint 2 \| 2 \| 1 \|<br>\| Codepoint 3 \| 2 \| 2 \|<br>\| Codepoint 4 \| 2 \| 4 \|<br>- Proponent companies are encouraged to provide details for Option 3 or 4 within RAN1#126bis | 67% | FFS: [Chair notes RAN1#126_eom1](https://www.3gpp.org/ftp/tsg_ran/WG1_RL1/TSGR1_126/Inbox/Chair_notes/Chair%20notes%20RAN1%23126_eom1.docx)<br>[R1-2605363](https://www.3gpp.org/ftp/tsg_ran/WG1_RL1/TSGR1_126/Docs/R1-2605363.zip)<br>후보: [Chair notes RAN1#126bis_eom1](https://www.3gpp.org/ftp/tsg_ran/WG1_RL1/TSGR1_126b/Inbox/Chair_notes/Chair%20notes%20RAN1%23126bis_eom1.docx) |
-| R2D signals, channels, waveform and procedures | FFS: supported combination between sequence length and chip length | For R2D sequence-based SIP,<br>  - The chip length is determined from three M values of {2, 6, 12}<br>  - The supported combination between sequence length and chip length are as<br>\| 4 bits codepoint \| Sequence length \| Chip length \|<br>\| Codepoint 1 \| 511 \| 2 \|<br>\| Codepoint 2 \| 511 \| 6 \|<br>\| Codepoint 3 \| 511 \| 12 \|<br>\| Codepoint 4 \| 255 \| 2 \|<br>\| Codepoint 5 \| 255 \| 6 \|<br>\| Codepoint 6 \| 255 \| 12 \|<br>\| Codepoint 7 \| 127 \| 2 \|<br>\| Codepoint 8 \| 127 \| 6 \|<br>\| Codepoint 9 \| 127 \| 12 \|<br>\| Codepoint 10 \| 63 \| 2 \|<br>\| Codepoint 11 \| 63 \| 6 \|<br>\| Codepoint 12 \| 63 \| 12 \|<br>\| Codepoint 13 \| 31 \| 2 \|<br>\| Codepoint 14 \| 31 \| 6 \|<br>\| Codepoint 15 \| 31 \| 12 \| | 100% | FFS: [Chair notes RAN1#126_eom1](https://www.3gpp.org/ftp/tsg_ran/WG1_RL1/TSGR1_126/Inbox/Chair_notes/Chair%20notes%20RAN1%23126_eom1.docx)<br>[R1-2605365](https://www.3gpp.org/ftp/tsg_ran/WG1_RL1/TSGR1_126/Docs/R1-2605365.zip)<br>후보: [Chair notes RAN1#126bis_eom1](https://www.3gpp.org/ftp/tsg_ran/WG1_RL1/TSGR1_126b/Inbox/Chair_notes/Chair%20notes%20RAN1%23126bis_eom1.docx)<br>[R1-2607513](https://www.3gpp.org/ftp/tsg_ran/WG1_RL1/TSGR1_126b/Docs/R1-2607513.zip) |
-| D2R signals, channels, waveform and procedures | FFS: midamble at the end of the PDRCH | For the D2R midamble at the end of PDRCH with BPSK, the following is supported:<br>- Indication of structure of D2R midamble at the end of PDRCH<br>- The structure of D2R midamble at the end of PDRCH is predefined.<br>- Structure of D2R midamble at the end of PDRCH<br>- When a D2R midamble at the end of PDRCH is present,<br>  - The Option 1 midamble is appended at the end of the PDRCH.<br>- Applicability of presence indication for D2R midamble at the end of PDRCH<br>- The reader indicates presence of D2R midamble at the end of PDRCH using a 1-bit field only when Option 1 is enabled. | 100% | FFS: [Chair notes RAN1#126_eom1](https://www.3gpp.org/ftp/tsg_ran/WG1_RL1/TSGR1_126/Inbox/Chair_notes/Chair%20notes%20RAN1%23126_eom1.docx)<br>[R1-2605812](https://www.3gpp.org/ftp/tsg_ran/WG1_RL1/TSGR1_126/Docs/R1-2605812.zip)<br>후보: [Chair notes RAN1#126bis_eom1](https://www.3gpp.org/ftp/tsg_ran/WG1_RL1/TSGR1_126b/Inbox/Chair_notes/Chair%20notes%20RAN1%23126bis_eom1.docx)<br>[R1-2607546](https://www.3gpp.org/ftp/tsg_ran/WG1_RL1/TSGR1_126b/Docs/R1-2607546.zip) |
-| D2R signals, channels, waveform and procedures | FFS: Whether further down-selection among the above values and/or additional value(s) is needed. | For determination of the D2R reference frequency, consider the following details for down-selection:<br>- For Alt 1,<br>  - the reference frequency indicated by the reader is based on D2R channel raster. With a 10 kHz raster:<br>    - Alt 1-1: Y=19 bits for indexing frequency points over the frequency range below 3 GHz.<br>    - Alt 1-2: Y=13 bits for indexing frequency points within the applicable D2R operating band among n5, n8 and n28.<br>      - FFS: How the device identifies the applicable operating band.<br>      - FFS: How to ensure forward compatibility if additional operating bands are introduced by RAN4.<br>- For Alt 2,<br>  - fR2D_sync_raster ​is determined by the device from the received R2D synchronization signal.<br>    - FFS: How the device identifies the applicable operating band.<br>  - fref = fR2D_sync_raster + foffset,2<br>  - The reader indicates foffset,2,<br>    - foffset,2 has a range of [A, B] MHz<br>      - A = -70, B = -20 for n5<br>      - A = -80, B = -10 for n8<br>      - A = -100, B = -10 for n28<br>      - FFS: How to ensure forward compatibility if additional operating bands are introduced by RAN4.<br>    - foffset,2 requires C bits for indication to the device<br>      - C = 15 bits assuming 5 kHz granularity, 14 bis assuming 10kHz granularity<br>        - FFS: How to support other channel raster granularities, including the corresponding indication bit widths.<br>  - The above offset ranges and TX–RX separation values apply when fR2D_sync_raster is in the DL operating band and fref is in the corresponding UL operating band.<br>    - FFS: Corresponding definitions for R2D transmission in the UL operating band. | 100% | FFS: [Chair notes RAN1#126_eom1](https://www.3gpp.org/ftp/tsg_ran/WG1_RL1/TSGR1_126/Inbox/Chair_notes/Chair%20notes%20RAN1%23126_eom1.docx)<br>[R1-2605815](https://www.3gpp.org/ftp/tsg_ran/WG1_RL1/TSGR1_126/Docs/R1-2605815.zip)<br>후보: [Chair notes RAN1#126bis_eom1](https://www.3gpp.org/ftp/tsg_ran/WG1_RL1/TSGR1_126b/Inbox/Chair_notes/Chair%20notes%20RAN1%23126bis_eom1.docx)<br>[R1-2607549](https://www.3gpp.org/ftp/tsg_ran/WG1_RL1/TSGR1_126b/Docs/R1-2607549.zip) |
-| D2R signals, channels, waveform and procedures | FFS: Handling of the Option 1 and Option 2 structures when their insertion positions coincide. | For the Option 1 and Option 2 midamble structures for BPSK, down select from following alternatives:<br>- Alt 1:<br>  - Step 1: Determine the Option 2 insertion positions based only on data bits and insert the Option 2 midamble bits.<br>  - Step 2: Determine the Option 1 insertion positions based only on data bits, using the Option 1 insertion interval. If an Option 1 insertion position coincides with an Option 2 insertion position, apply one of the following:<br>    - Replace the Option 2 midamble bit at that position with the Option 1 midamble.<br>- Alt 2:<br>  - Step 1: Determine the Option 2 insertion positions based only on data bits and insert the Option 2 midamble bits.<br>  - Step 2: Determine the Option 1 insertion positions by counting both data bits and the inserted Option 2 midamble bits, using the Option 1 insertion interval, and insert the Option 1 midambles at these positions. | 67% | FFS: [Chair notes RAN1#126_eom1](https://www.3gpp.org/ftp/tsg_ran/WG1_RL1/TSGR1_126/Inbox/Chair_notes/Chair%20notes%20RAN1%23126_eom1.docx)<br>[R1-2605815](https://www.3gpp.org/ftp/tsg_ran/WG1_RL1/TSGR1_126/Docs/R1-2605815.zip)<br>후보: [Chair notes RAN1#126bis_eom1](https://www.3gpp.org/ftp/tsg_ran/WG1_RL1/TSGR1_126b/Inbox/Chair_notes/Chair%20notes%20RAN1%23126bis_eom1.docx)<br>[R1-2607546](https://www.3gpp.org/ftp/tsg_ran/WG1_RL1/TSGR1_126b/Docs/R1-2607546.zip) |
-| Other procedures | FFS details on the necessary information provided by periodic broadcast information | To indicate the parameters for Open-loop power control,<br>- The parameters for Open-loop power control are contained in the remaining part of periodic broadcast information.<br>- FFS: For D2R transmission other than the first D2R transmission for DO-A, whether/how all or part of the parameters for Open-loop power control are additionally provided. | 80% | FFS: [Chair notes RAN1#126_eom1](https://www.3gpp.org/ftp/tsg_ran/WG1_RL1/TSGR1_126/Inbox/Chair_notes/Chair%20notes%20RAN1%23126_eom1.docx)<br>[R1-2606198](https://www.3gpp.org/ftp/tsg_ran/WG1_RL1/TSGR1_126/Docs/R1-2606198.zip)<br>후보: [Chair notes RAN1#126bis_eom1](https://www.3gpp.org/ftp/tsg_ran/WG1_RL1/TSGR1_126b/Inbox/Chair_notes/Chair%20notes%20RAN1%23126bis_eom1.docx) |
-| Other procedures | FFS values of the modification periodicity from RAN1 perspective | Regarding the modification period, update the following agreement in RAN1#126<br>\| Agreement: From RAN1 perspective, support to introduce the modification periodicity of the remaining part of periodic broadcast information. The modification periodicity is configured by the remaining part of periodic broadcast information and can be [same as or] an integer multiple (>1) of periodicity of the remaining part of periodic broadcast information. FFS Integer multiple values of the modification periodicity from RAN1 perspective {1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 4096}, 4-bit indication. Note: RAN2 can decide value range and exact values taking RAN1 agreements into account \| | 100% | FFS: [Chair notes RAN1#126_eom1](https://www.3gpp.org/ftp/tsg_ran/WG1_RL1/TSGR1_126/Inbox/Chair_notes/Chair%20notes%20RAN1%23126_eom1.docx)<br>[R1-2606199](https://www.3gpp.org/ftp/tsg_ran/WG1_RL1/TSGR1_126/Docs/R1-2606199.zip)<br>후보: [Chair notes RAN1#126bis_eom1](https://www.3gpp.org/ftp/tsg_ran/WG1_RL1/TSGR1_126b/Inbox/Chair_notes/Chair%20notes%20RAN1%23126bis_eom1.docx) |
-| Other procedures | FFS for the Msg1 transmission not for the first D2R transmission for DO-A | Regarding Option 1 for D2R open-loop power control, power ramping is supported for the first D2R transmission for DO-A, i.e., power is ramped up with (N-1)∆P where N is the number of attempts to transmit first D2R transmission for DO-A, and ∆P is the power ramping step and can be configured by a reader.<br>- FFS: maximum number of N which is configured by a reader.<br>- FFS: other details<br>- FFS: power ramping for Msg1 | 100% | FFS: [Chair notes RAN1#126_eom1](https://www.3gpp.org/ftp/tsg_ran/WG1_RL1/TSGR1_126/Inbox/Chair_notes/Chair%20notes%20RAN1%23126_eom1.docx)<br>[R1-2606200](https://www.3gpp.org/ftp/tsg_ran/WG1_RL1/TSGR1_126/Docs/R1-2606200.zip)<br>후보: [Chair notes RAN1#126bis_eom1](https://www.3gpp.org/ftp/tsg_ran/WG1_RL1/TSGR1_126b/Inbox/Chair_notes/Chair%20notes%20RAN1%23126bis_eom1.docx) |
-| Other procedures | FFS: whether index corresponds to the first part or the remaining part, and value range of the broadcast information index according to the selected alternative | For the broadcast information index indication, RAN1 to down select one of the following alternatives:<br>- Alt. 1:<br>  - X=4 bits LSB are included in the first part of broadcast information.<br>  - Y=M-X bits MSB are included in the remaining part of broadcast information.<br>  - X+Y = M = log2(maxN) + log2(maxP)<br>  - Where maxN is the maximum integer multiplier (i.e., 16) used for periodicity of the remaining part, maxP is the maximum integer multiplier used for the periodicity of the modification period.<br>- Alt. 2a: hierarchical/local broadcast information index<br>  - X-bit first part broadcast information index (local index within remaining-part periodicity) is indicated in the 4-bit field in the first part of broadcast information<br>    - X=ceil{ log2(N)} bits, value range is based on the configured N.<br>  - Y-bit remaining-part broadcast information index is indicated in the remaining part of broadcast information<br>    - Y=M-X<br>  - X+Y=M=ceil{log2(N)}+log2(P)<br>  - Where,<br>    - Modification periodicity=P*periodicity of remaining BI<br>    - Periodicity of remaining BI=N*640ms, N=4, [8, 12],16<br>- Alt. 2b: hierarchical/local broadcast information index<br>  - X-bit first part broadcast information index (local index within remaining-part periodicity) is indicated in the 4-bit field in the first part of broadcast information<br>    - X=ceil{ log2(N)} bits, value range is based on the configured N.<br>  - Y-bit remaining-part broadcast information index is indicated in the remaining part of broadcast information<br>    - Y=M-X<br>  - X+Y=M=ceil{log2(N)}+log2(maxP)<br>  - Where,<br>    - Periodicity of remaining BI=N*640ms, N=4, [8, 12],16<br>    - maxP is the maximum integer multiplier used for the periodicity of the modification period | 64% | FFS: [Chair notes RAN1#126_eom1](https://www.3gpp.org/ftp/tsg_ran/WG1_RL1/TSGR1_126/Inbox/Chair_notes/Chair%20notes%20RAN1%23126_eom1.docx)<br>[R1-2606201](https://www.3gpp.org/ftp/tsg_ran/WG1_RL1/TSGR1_126/Docs/R1-2606201.zip)<br>후보: [Chair notes RAN1#126bis_eom1](https://www.3gpp.org/ftp/tsg_ran/WG1_RL1/TSGR1_126b/Inbox/Chair_notes/Chair%20notes%20RAN1%23126bis_eom1.docx)<br>[R1-2607195](https://www.3gpp.org/ftp/tsg_ran/WG1_RL1/TSGR1_126b/Docs/R1-2607195.zip) |
-| NR-NTN GNSS resilience | FFS: Whether/how to support multiple reference locations for each SSB beam | For GNSS-resilient open-loop UL time/frequency pre-compensation in a (quasi) Earth-fixed cell, the target granularity in longitude/latitude of each beam/cell reference location should be ≤X,<br>- X= 20m<br>- X= 50m<br>- X=150m<br>Select one of the above X values<br>FFS: impact of these values on timing/frequency performance<br>FFS: value ranges (absolute and relative)<br>Note: Other values of X are not precluded.<br>Note: This doesn’t prevent reusing the granularity of the existing referenceLocation-r17.<br>Note: the number of SSB beams as per the existing specs. | 67% | FFS: [Chair notes RAN1#126_eom1](https://www.3gpp.org/ftp/tsg_ran/WG1_RL1/TSGR1_126/Inbox/Chair_notes/Chair%20notes%20RAN1%23126_eom1.docx)<br>[R1-2605606](https://www.3gpp.org/ftp/tsg_ran/WG1_RL1/TSGR1_126/Docs/R1-2605606.zip)<br>후보: [Chair notes RAN1#126bis_eom1](https://www.3gpp.org/ftp/tsg_ran/WG1_RL1/TSGR1_126b/Inbox/Chair_notes/Chair%20notes%20RAN1%23126bis_eom1.docx)<br>[R1-2607816](https://www.3gpp.org/ftp/tsg_ran/WG1_RL1/TSGR1_126b/Docs/R1-2607816.zip) |
-| NR-NTN GNSS resilience | FFS: Whether same RO and/or separate ROs in time domain can be used to transmit the two PRACH sequences. | For GNSS-resilient NR-NTN initial access based on the transmission of two PRACH sequences using the same existing PRACH format and different roots (Alt 1-4), RAN1 to down-select one of the following alternatives:<br>- The transmission of the two PRACH sequences is performed in separate ROs in the time domain (TDM method). The transmission of the two PRACH sequences overlapping in time and frequency within the same RO (CDM method) is deprioritized in R20 NR NTN.<br>- Note: The above is decided based on the evaluation assumptions (such as LOS channel and 3 km/h) and studies during the corresponding study phase.<br>- FFS: Other details | 89% | FFS: [Chair notes RAN1#126_eom1](https://www.3gpp.org/ftp/tsg_ran/WG1_RL1/TSGR1_126/Inbox/Chair_notes/Chair%20notes%20RAN1%23126_eom1.docx)<br>[R1-2605609](https://www.3gpp.org/ftp/tsg_ran/WG1_RL1/TSGR1_126/Docs/R1-2605609.zip)<br>후보: [Chair notes RAN1#126bis_eom1](https://www.3gpp.org/ftp/tsg_ran/WG1_RL1/TSGR1_126b/Inbox/Chair_notes/Chair%20notes%20RAN1%23126bis_eom1.docx) |
-| NR-NTN GNSS resilience | FFS: Whether one or multiple granularities will be defined | For the selection of the two root sequences in a dual PRACH transmission, RAN1 to specify a root-pairing mechanism. RAN1 to down-select one of the following options for the mechanism:<br>- Option A: Fixed/derived rule: The relationship between u1 and u2 is defined by a single, mathematical rule. Candidate rules include:<br>  - Option A-1: Inverse-Root Offset (Unit-Shift):<br>  - Option A-2: Logical Index Offset: e.g., i2 = (i1 + k) mod  or<br>  - Option A-3: Root-Group Offset:<br>  - Option A-4: ku1 = (k+1)u2 mod LRA, where k is an integer<br>- Option B:<br>  - Table-Based selection: The gNB signals an index or set of parameters that points to pre-defined table(s) of optimized root pairs.<br>    - Option B-1<br>      - Two tables are specified (for long and short preamble formats, respectively) with root pairs  selected to provide minimum CM difference within each pair while satisfying the root selection criterion , where ,   is the ZC sequence length and  is the maximum CFO normalized with respect to the subcarrier spacing. The root pairs in the tables are further ordered by ascending pair CM (defined as the max CM of the two roots in a pair).<br>      - The network indicates a starting logical root pair index from which the UE can extract up to 64 consecutive logical root pair indices from the applicable table.<br>      - Root pair tables (for evaluation purposes) are given in appendix B of R1-2608710,  R1-2607250<br>- Option C: Configured by NW:<br>  - Option C-1:<br>    - Use starting logical index i1 for the first root sequence and starting logical root index i2 for the second root sequence, using existing rules for preamble generation per RO<br>    - NW configure i1 and i2<br>  - Option C-2:<br>    - Use starting logical index i1 for the first root sequence and starting logical root index i2 for the second root sequence, root pair validation based on condition until determine 64 preamble pairs, where the condition is:<br>      - if the minimum Distance (Dmin) of a root pair is greater than d , the root pair is valid, otherwise the root pair is invalid.<br>      - the Dmin is calculated as  Dmin(s) = min-Kmax ≤ m ≤ Kmax  circ_dist(m·s, L), where<br>s = (u1-1 − u0-1) mod L, and circ_dist(x,L) = min(x mod L, L − (x mod L)), Kmax is 7, L is ZC sequence length, the value d is configured or pre-defined.<br>    - NW configure i1 and i2<br>- Option D:<br>  - NW configure root pair list, where each entry of the list is a pair of root (u1,u2).<br>Companies are encouraged provide evaluation if relevant for MDR, CM/PAPR, time/frequency estimation errors and signaling overhead, inter-cell PRACH interference, etc.<br>- The exact parameters, value ranges, and signaling for the chosen mechanism (e.g., values for s or k, or the design of the tables).<br>- The handling of the cyclic shift for the first and second PRACH transmission.<br>- The impact on required number of correlators per RO, considering the RO pairing mechanism that will be used. | 60% | FFS: [Chair notes RAN1#126_eom1](https://www.3gpp.org/ftp/tsg_ran/WG1_RL1/TSGR1_126/Inbox/Chair_notes/Chair%20notes%20RAN1%23126_eom1.docx)<br>[R1-2605609](https://www.3gpp.org/ftp/tsg_ran/WG1_RL1/TSGR1_126/Docs/R1-2605609.zip)<br>후보: [Chair notes RAN1#126bis_eom1](https://www.3gpp.org/ftp/tsg_ran/WG1_RL1/TSGR1_126b/Inbox/Chair_notes/Chair%20notes%20RAN1%23126bis_eom1.docx)<br>[R1-2607814](https://www.3gpp.org/ftp/tsg_ran/WG1_RL1/TSGR1_126b/Docs/R1-2607814.zip) |
-
-## 9 Release 20 NR
-
-회의별 결정 수 (하위 Agenda 포함): #122 19 · #122bis 7 · #123 76 · #124 136 · #124bis 70 · #125 92 · #126 87 · #126bis 103
-
-### 9.1 Artificial Intelligence (AI)/Machine Learning (ML) for NR air interface enhancements
-
-회의별 결정 수 (하위 Agenda 포함): #122 15 · #122bis 3 · #123 2 · #124 12 · #124bis 8 · #125 9 · #126 8 · #126bis 8
-
-#### 9.1.1 CSI spatial/frequency compression without temporal aspects (“Case 0”)
-
-회의별 결정 수 (하위 Agenda 포함): #122 10 · #122bis 0 · #123 0 · #124 7 · #124bis 5 · #125 4 · #126 4 · #126bis 5
-
-번호 변경: #122: 10.1.1 → #124: 9.1.1
+회의별 결정 수: #122 10 · #122bis 0 · #123 0 · #124 7 · #124bis 5 · #125 4 · #126 4 · #126bis 5 · #127 0
 
 | 회의 | 번호 | 구분 | 내용 | 출처 |
 |---|---|---|---|---|
@@ -96,11 +69,9 @@ timeline
 | RAN1#126bis | 9.1.1 | Agreement | For CSI feedback via two-sided model, for inference only, reuse the legacy R19 APU and CPU framework considering<br>- Dedicated AI/ML PU (  or ) and/or legacy CPU () are occupied and the occupation is upto UE capability<br>  - UE report  0 or  as capability<br>  - UE report  0 or  as capability where  or .<br>  - The same occupation duration is reused for  and<br>  - Note: Combination of = 0 and =0 is not allowed<br>  - Note:  and  are separately signalled per CC and across all CCs | [Chair notes RAN1#126bis_eom1](https://www.3gpp.org/ftp/tsg_ran/WG1_RL1/TSGR1_126b/Inbox/Chair_notes/Chair%20notes%20RAN1%23126bis_eom1.docx)<br>[R1-2608403](https://www.3gpp.org/ftp/tsg_ran/WG1_RL1/TSGR1_126b/Docs/R1-2608403.zip) |
 | RAN1#126bis | 9.1.1 | Agreement | For CSI feedback via two-sided model, for inference only, support CSI processing timeline {Z+t’, Z’+t’} where t’ is reported as UE capability.<br>- If <=32 ports, {Z, Z’} is equal to {Z2, Z2’} in table 5.4-2 of TS38.214<br>- If >32 ports, {Z, Z’} is equal to {Z2, Z2’} or {Z2, Z2} according to UE capability 1 or 2, and {Z2, Z2’} is in table 5.4-2 of TS38.214<br>- FFS the same t’ is reported for <=32 ports and >32 ports in UE feature session<br>- Note: t’ is reported per SCS | [Chair notes RAN1#126bis_eom1](https://www.3gpp.org/ftp/tsg_ran/WG1_RL1/TSGR1_126b/Inbox/Chair_notes/Chair%20notes%20RAN1%23126bis_eom1.docx)<br>[R1-2608403](https://www.3gpp.org/ftp/tsg_ran/WG1_RL1/TSGR1_126b/Docs/R1-2608403.zip) |
 
-#### 9.1.2 Inter-vendor training collaboration for two-sided AI/ML models
+### 9.1.2 Inter-vendor training collaboration for two-sided AI/ML models (마지막: RAN1#126bis)
 
-회의별 결정 수 (하위 Agenda 포함): #122 5 · #122bis 3 · #123 2 · #124 5 · #124bis 3 · #125 5 · #126 4 · #126bis 3
-
-번호 변경: #122: 10.1.2 → #124: 9.1.2
+회의별 결정 수: #122 5 · #122bis 3 · #123 2 · #124 5 · #124bis 3 · #125 5 · #126 4 · #126bis 3 · #127 0
 
 | 회의 | 번호 | 구분 | 내용 | 출처 |
 |---|---|---|---|---|
@@ -135,9 +106,9 @@ timeline
 | RAN1#126bis | 9.1.2 | Agreement | Regarding RAN2 LS R1-2606975 (R2-2605892), the draft LS R1-2608708 is endorsed after making the following changes in red.<br>For Q1, theThe number of pairing ID values fully standardized reference models for Direction C is out of RAN1 scope.  [RAN1 is discussing on pairing related aspects for a model based on Direction C and Direction A.]<br>The final LS in R1-2608709 is endorsed. | [Chair notes RAN1#126bis_eom1](https://www.3gpp.org/ftp/tsg_ran/WG1_RL1/TSGR1_126b/Inbox/Chair_notes/Chair%20notes%20RAN1%23126bis_eom1.docx) |
 | RAN1#126bis | 9.1.2 | Agreement | - For model applicability procedure for inference, supports Option A and option B.<br>  - FFS: Corresponding inference related parameters for option B in otherConfig | [Chair notes RAN1#126bis_eom1](https://www.3gpp.org/ftp/tsg_ran/WG1_RL1/TSGR1_126b/Inbox/Chair_notes/Chair%20notes%20RAN1%23126bis_eom1.docx) |
 
-### 9.2 NR MIMO Phase 6
+### 9.2 NR MIMO Phase 6 (마지막: RAN1#126bis)
 
-회의별 결정 수 (하위 Agenda 포함): #122 0 · #122bis 0 · #123 0 · #124 0 · #124bis 11 · #125 17 · #126 17 · #126bis 13
+회의별 결정 수: #122 0 · #122bis 0 · #123 0 · #124 0 · #124bis 11 · #125 17 · #126 17 · #126bis 13 · #127 0
 
 | 회의 | 번호 | 구분 | 내용 | 출처 |
 |---|---|---|---|---|
@@ -200,15 +171,9 @@ timeline
 | RAN1#126bis | 9.2 | Agreement | Regarding the RPFS start RB index hopping across multiple legacy SRS frequency hopping periods determined by pseudo-random sequence for intra-repetition hopping with ,<br>- Hopping granularity  can be configured as 1 or 2 adjacent frequency hopping period(s) | [Chair notes RAN1#126bis_eom1](https://www.3gpp.org/ftp/tsg_ran/WG1_RL1/TSGR1_126b/Inbox/Chair_notes/Chair%20notes%20RAN1%23126bis_eom1.docx)<br>[R1-2607398](https://www.3gpp.org/ftp/tsg_ran/WG1_RL1/TSGR1_126b/Docs/R1-2607398.zip)<br>`[126bis-R20-MIMO]` |
 | RAN1#126bis | 9.2 | Agreement | For PF = K (i.e., PF = 2, K = 2 and PF = 4, K = 4), update  as follows:<br>  - is given by the following table, wherein  when pseudo-random RPFS start RB hopping across different SRS frequency hopping period groups is enabled and Rel-17 deterministic RPFS start RB hopping is not enabled;  when pseudo-random RPFS start RB hopping across different SRS frequency hopping period groups is not enabled and Rel-17 deterministic RPFS start RB hopping is enabled<br>The quantity  as a function of<br>\|  \|  \|  \|  \|<br>\|  \| = K = 2 \| = 4 and K =2 \| = K = 4 \|<br>\| 0 \| 0 \| 0 \| 0 \|<br>\| 1 \| 1 \| 1 \| 2 \|<br>\| 2 \| - \| - \| 1 \|<br>\| 3 \| - \| - \| 3 \| | [Chair notes RAN1#126bis_eom1](https://www.3gpp.org/ftp/tsg_ran/WG1_RL1/TSGR1_126b/Inbox/Chair_notes/Chair%20notes%20RAN1%23126bis_eom1.docx)<br>[R1-2607398](https://www.3gpp.org/ftp/tsg_ran/WG1_RL1/TSGR1_126b/Docs/R1-2607398.zip)<br>`[126bis-R20-MIMO]` |
 
-### 9.3 Solutions for Ambient IoT (Internet of Things) in NR Phase 2
+### 9.3.1 R2D signals, channels, waveform and procedures (마지막: RAN1#126bis)
 
-회의별 결정 수 (하위 Agenda 포함): #122 0 · #122bis 0 · #123 60 · #124 116 · #124bis 49 · #125 61 · #126 56 · #126bis 68
-
-#### 9.3.1 R2D signals, channels, waveform and procedures
-
-회의별 결정 수 (하위 Agenda 포함): #122 0 · #122bis 0 · #123 31 · #124 45 · #124bis 24 · #125 25 · #126 15 · #126bis 19
-
-번호 변경: #123: 10.3.2.1 → #124: 9.3.2.1 → #124bis: 9.3.1
+회의별 결정 수: #122 0 · #122bis 0 · #123 31 · #124 45 · #124bis 24 · #125 25 · #126 15 · #126bis 19 · #127 0
 
 | 회의 | 번호 | 구분 | 내용 | 출처 |
 |---|---|---|---|---|
@@ -372,11 +337,9 @@ timeline
 | RAN1#126bis | 9.3.1 | Agreement | From device perspective, for the non-periodic D2R transmission, RAN1 select from the following options for potential collision handling with periodic R2D transmission<br>- Option 1: Device assumes non-periodic D2R transmission does not collide with the reception of periodic R2D transmission<br>- Option 2: Device assumes non-periodic D2R transmission is postponed if any part of the non-periodic D2R transmission collides with the reception of periodic R2D transmission<br>  - Note: Device may or may not receive the periodic R2D transmission and it is up to implementation<br>  - Only the collision part and the followings of non-periodic D2R transmission is postponed<br>    - FFS details including determination of the collision part<br>  - Note: Device assumes D2R preamble of non-periodic D2R transmission does not collide with periodic R2D transmission<br>- Option 3: Device assumes to transmit non-periodic D2R transmission if it collides with the reception of periodic R2D transmission, and device skips the reception of at least the collision part of the periodic R2D transmission<br>  - FFS details on determination of the collision part<br>- Option 4: If non-periodic D2R transmission collides with the reception of periodic R2D transmission, it is up to device implementation for reception or transmission | [Chair notes RAN1#126bis_eom1](https://www.3gpp.org/ftp/tsg_ran/WG1_RL1/TSGR1_126b/Inbox/Chair_notes/Chair%20notes%20RAN1%23126bis_eom1.docx)<br>[R1-2607515](https://www.3gpp.org/ftp/tsg_ran/WG1_RL1/TSGR1_126b/Docs/R1-2607515.zip) |
 | RAN1#126bis | 9.3.1 | Agreement | For L1 R2D control information preceding scheduled data payload, support content of L1 R2D control information is carried in CRC mask. RAN1 select which content to be carried in CRC mask from the followings<br>- Option 1: Device ID for device monitoring unicast transmission, or pre-defined ID for device monitoring non-unicast transmission e.g. paging (using CRC length 16)<br>- Option 2: (part of) Physical layer Reader ID<br>  - Option 2-1: 9 bits part of physical layer Reader ID are carried in CRC mask (using CRC length 16)<br>  - Option 2-2: 6 bits part of physical layer Reader ID are carried in CRC mask where the rest 3 bits are in the content as payload (using CRC length 6) | [Chair notes RAN1#126bis_eom1](https://www.3gpp.org/ftp/tsg_ran/WG1_RL1/TSGR1_126b/Inbox/Chair_notes/Chair%20notes%20RAN1%23126bis_eom1.docx)<br>[R1-2607515](https://www.3gpp.org/ftp/tsg_ran/WG1_RL1/TSGR1_126b/Docs/R1-2607515.zip) |
 
-#### 9.3.2 D2R signals, channels, waveform and procedures
+### 9.3.2 D2R signals, channels, waveform and procedures (마지막: RAN1#126bis)
 
-회의별 결정 수 (하위 Agenda 포함): #122 0 · #122bis 0 · #123 20 · #124 45 · #124bis 16 · #125 23 · #126 23 · #126bis 26
-
-번호 변경: #123: 10.3.2.2 → #124: 9.3.2.2 → #124bis: 9.3.2
+회의별 결정 수: #122 0 · #122bis 0 · #123 20 · #124 45 · #124bis 16 · #125 23 · #126 23 · #126bis 26 · #127 0
 
 | 회의 | 번호 | 구분 | 내용 | 출처 |
 |---|---|---|---|---|
@@ -534,11 +497,9 @@ timeline
 | RAN1#126bis | 9.3.2 | Agreement | For D2R FDMA, down-select one or more combinations of alternatives for the following two aspects:<br>- Determination of NFDMA<br>- Alt 1: NFDMA is implicitly derived from the applicable transmission parameters, such as the bit duration and channel bandwidth.<br>  - FFS: The parameters and derivation rule.<br>  - Note: NFDMA is the maximum number of frequency resources<br>- Alt 2: NFDMA is configured and indicated by the reader.<br>  - FFS: The supported values of NFDMA.<br>  - FFS: details<br>  - Note: NFDMA is equal to or smaller than the maximum number of frequency resources<br>- Available frequency resources<br>- Alt A: All resource indices i = 0, 1, ..., NFDMA − 1 are available for selection.<br>- Alt B: The reader indicates a contiguous subset of resource indices among i = 0, 1, ..., NFDMA − 1 that are available for selection.<br>- Alt C: The reader indicates a subset of resource indices among i = 0, 1, ..., NFDMA − 1 that are available for selection. The subset may be contiguous or non-contiguous.<br>Note 1: The following combinations are considered for down-selection:<br>- Alt 1-B, Alt 1-C, Alt 2-A, Alt 2-B, and Alt 2-C.<br>- The combination of Alt 1-A is excluded from consideration.<br>Note 2: The detailed signaling design is left to RAN2. | [Chair notes RAN1#126bis_eom1](https://www.3gpp.org/ftp/tsg_ran/WG1_RL1/TSGR1_126b/Inbox/Chair_notes/Chair%20notes%20RAN1%23126bis_eom1.docx)<br>[R1-2607549](https://www.3gpp.org/ftp/tsg_ran/WG1_RL1/TSGR1_126b/Docs/R1-2607549.zip) |
 | RAN1#126bis | 9.3.2 | Agreement | For the D2R preamble at least for device C, the following polynomial and initial state are supported.<br>\| length \| No. \| Polynomial \| Initial state {x₀, x₁, …} \|<br>\| 7 \| 1 \| x³ + x + 1 \| 1 1 1 \|<br>\| 7 \| 2 \| x³ + x² + 1 \| 0 1 0 \|<br>\| 7 \| 3 \| x³ + x + 1 \| 0 1 0 \|<br>\| 31 \| 1 \| x⁵ + x² + 1 \| 0 1 0 0 0 \|<br>\| 31 \| 2 \| x⁵ + x³ + x² + x + 1 \| 1 1 0 0 0 \|<br>\| 31 \| 3 \| x⁵ + x⁴ + x³ + x² + 1 \| 0 1 0 0 0 \|<br>\| 63 \| 1 \| x⁶ + x⁵ + x⁴ + x + 1 \| 0 1 0 0 1 0 \|<br>\| 63 \| 2 \| x⁶ + x + 1 \| 1 1 1 1 0 1 \|<br>\| 63 \| 3 \| x⁶ + x⁵ + 1 \| 0 0 1 0 1 1 \|<br>\| 127 \| 1 \| x⁷ + x⁶ + x⁵ + x⁴ + 1 \| 0 1 0 0 0 1 0 \|<br>\| 127 \| 2 \| x⁷ + x⁴ + 1 \| 1 1 0 0 0 0 1 \|<br>\| 127 \| 3 \| x⁷ + x⁶ + x⁵ + x⁴ + x² + x + 1 \| 0 1 0 0 0 0 1 \|<br>\| 255 \| 1 \| x⁸ + x⁴ + x³ + x² + 1 \| 1 1 0 0 0 0 0 0 \|<br>\| 255 \| 2 \| x⁸ + x⁶ + x³ + x² + 1 \| 1 0 0 0 0 0 0 0 \|<br>\| 255 \| 3 \| x⁸ + x⁶ + x⁴ + x³ + x² + x + 1 \| 0 0 0 1 0 0 0 0 \|<br>- For device 2b<br>  - RAN1 strives to avoid using the same polynomials for R2D PSS/SIP and D2R preambles.<br>  - For each length of D2R preamble which have any shared polynomial with that of R2D SS/SIP, a new set of three D2R sequences can be considered.<br>  - Companies can provide additional sets of D2R preamble sequences for each length before and during the RAN1#127 | [Chair notes RAN1#126bis_eom1](https://www.3gpp.org/ftp/tsg_ran/WG1_RL1/TSGR1_126b/Inbox/Chair_notes/Chair%20notes%20RAN1%23126bis_eom1.docx)<br>[R1-2607549](https://www.3gpp.org/ftp/tsg_ran/WG1_RL1/TSGR1_126b/Docs/R1-2607549.zip) |
 
-#### 9.3.3 Other procedures
+### 9.3.3 Other procedures (마지막: RAN1#126bis)
 
-회의별 결정 수 (하위 Agenda 포함): #122 0 · #122bis 0 · #123 9 · #124 26 · #124bis 9 · #125 13 · #126 18 · #126bis 23
-
-번호 변경: #123: 10.3.2.3 → #124: 9.3.2.3 → #124bis: 9.3.3
+회의별 결정 수: #122 0 · #122bis 0 · #123 9 · #124 26 · #124bis 9 · #125 13 · #126 18 · #126bis 23 · #127 0
 
 | 회의 | 번호 | 구분 | 내용 | 출처 |
 |---|---|---|---|---|
@@ -641,15 +602,9 @@ timeline
 | RAN1#126bis | 9.3.3 | Agreement | From device perspective, for potential collision between periodic D2R transmission resource/occasion (e.g., for the first D2R transmission for DO-A) and non-periodic D2R transmission, down select one from the following options:<br>- Option 1: Device assumes that reader can avoid collision for such case, and no collision handling is needed.<br>- Option 2: Device assumes that non-periodic D2R transmission is postponed<br>  - Device postpones the collision part and the remaining part of the non-periodic D2R transmission.<br>    - FFS details<br>- Option 3: Device assumes that whole non-periodic D2R transmission is delayed | [Chair notes RAN1#126bis_eom1](https://www.3gpp.org/ftp/tsg_ran/WG1_RL1/TSGR1_126b/Inbox/Chair_notes/Chair%20notes%20RAN1%23126bis_eom1.docx)<br>[R1-2607196](https://www.3gpp.org/ftp/tsg_ran/WG1_RL1/TSGR1_126b/Docs/R1-2607196.zip) |
 | RAN1#126bis | 9.3.3 | Agreement | Draft LS in R1-2608785 is agreed with changing “kindly” to “respectfully”.<br>Final LS in R1-2608786 is agreed. | [Chair notes RAN1#126bis_eom1](https://www.3gpp.org/ftp/tsg_ran/WG1_RL1/TSGR1_126b/Inbox/Chair_notes/Chair%20notes%20RAN1%23126bis_eom1.docx)<br>[R1-2608785](https://www.3gpp.org/ftp/tsg_ran/WG1_RL1/TSGR1_126b/Docs/R1-2608785.zip) |
 
-### 9.4 GNSS resilient NR-NTN operation
+### 9.4.1 NR-NTN GNSS resilience (마지막: RAN1#126bis)
 
-회의별 결정 수 (하위 Agenda 포함): #122 4 · #122bis 4 · #123 14 · #124 8 · #124bis 2 · #125 5 · #126 6 · #126bis 14
-
-#### 9.4.1 NR-NTN GNSS resilience
-
-회의별 결정 수 (하위 Agenda 포함): #122 4 · #122bis 4 · #123 14 · #124 8 · #124bis 2 · #125 5 · #126 6 · #126bis 14
-
-번호 변경: #122: 10.6.1 → #124: 9.6.1 → #124bis: 9.5.1 → #126: 9.4.1
+회의별 결정 수: #122 4 · #122bis 4 · #123 14 · #124 8 · #124bis 2 · #125 5 · #126 6 · #126bis 14 · #127 0
 
 | 회의 | 번호 | 구분 | 내용 | 출처 |
 |---|---|---|---|---|
@@ -711,13 +666,9 @@ timeline
 | RAN1#126bis | 9.4.1 | Agreement | Reuse the legacy SSB-to-RO mapping rules and configurations to map the selected SSB(s) to the designated RO-Pair. | [Chair notes RAN1#126bis_eom1](https://www.3gpp.org/ftp/tsg_ran/WG1_RL1/TSGR1_126b/Inbox/Chair_notes/Chair%20notes%20RAN1%23126bis_eom1.docx)<br>[R1-2607816](https://www.3gpp.org/ftp/tsg_ran/WG1_RL1/TSGR1_126b/Docs/R1-2607816.zip) |
 | RAN1#126bis | 9.4.1 | Agreement | For the dual PRACH transmission feature, where one RACH attempt consists of two PRACH transmissions in an RO pair:<br>- the two PRACH transmissions are treated as a single random-access attempt.<br>  - Note: This implies a single preamble transmission counter increment and a single power ramping counter increment for the attempt.<br>- the RAR window timing and the RA-RNTI calculation are based on the last of the two ROs in the pair.<br>- no power ramping is applied between the two PRACH transmissions within a single attempt. | [Chair notes RAN1#126bis_eom1](https://www.3gpp.org/ftp/tsg_ran/WG1_RL1/TSGR1_126b/Inbox/Chair_notes/Chair%20notes%20RAN1%23126bis_eom1.docx)<br>[R1-2607816](https://www.3gpp.org/ftp/tsg_ran/WG1_RL1/TSGR1_126b/Docs/R1-2607816.zip) |
 
-## 최신 회의에는 없는 Agenda
-
-삭제됐거나 제목이 바뀐 Agenda입니다. 제목이 바뀐 경우에도 자동으로 잇지 않으니 위 목록과 비교해 보세요.
-
 ### 9.3 Solutions for Ambient IoT (Internet of Things) in NR Phase 2 (마지막: RAN1#125)
 
-회의별 결정 수: #122 0 · #122bis 0 · #123 0 · #124 0 · #124bis 0 · #125 1 · #126 0 · #126bis 0
+회의별 결정 수: #122 0 · #122bis 0 · #123 0 · #124 0 · #124bis 0 · #125 1 · #126 0 · #126bis 0 · #127 0
 
 | 회의 | 번호 | 구분 | 내용 | 출처 |
 |---|---|---|---|---|
@@ -725,7 +676,7 @@ timeline
 
 ### 9.4.1 Coverage enhancement (마지막: RAN1#125)
 
-회의별 결정 수: #122 0 · #122bis 16 · #123 12 · #124 9 · #124bis 11 · #125 16 · #126 0 · #126bis 0
+회의별 결정 수: #122 0 · #122bis 16 · #123 12 · #124 9 · #124bis 11 · #125 16 · #126 0 · #126bis 0 · #127 0
 
 | 회의 | 번호 | 구분 | 내용 | 출처 |
 |---|---|---|---|---|
@@ -796,7 +747,7 @@ timeline
 
 ### 9.6.1 Semi-persistent scheduling for DL/UL data transmission for voice packets (마지막: RAN1#125)
 
-회의별 결정 수: #122 0 · #122bis 0 · #123 0 · #124 7 · #124bis 4 · #125 15 · #126 0 · #126bis 0
+회의별 결정 수: #122 0 · #122bis 0 · #123 0 · #124 7 · #124bis 4 · #125 15 · #126 0 · #126bis 0 · #127 0
 
 | 회의 | 번호 | 구분 | 내용 | 출처 |
 |---|---|---|---|---|
@@ -829,7 +780,7 @@ timeline
 
 ### 9.2.1 Improvement of SRS capacity and coverage (마지막: RAN1#124)
 
-회의별 결정 수: #122 7 · #122bis 8 · #123 8 · #124 6 · #124bis 0 · #125 0 · #126 0 · #126bis 0
+회의별 결정 수: #122 7 · #122bis 8 · #123 8 · #124 6 · #124bis 0 · #125 0 · #126 0 · #126bis 0 · #127 0
 
 | 회의 | 번호 | 구분 | 내용 | 출처 |
 |---|---|---|---|---|
@@ -865,7 +816,7 @@ timeline
 
 ### 9.2.2 Enhancing DL CSI acquisition (마지막: RAN1#124)
 
-회의별 결정 수: #122 8 · #122bis 12 · #123 11 · #124 11 · #124bis 0 · #125 0 · #126 0 · #126bis 0
+회의별 결정 수: #122 8 · #122bis 12 · #123 11 · #124 11 · #124bis 0 · #125 0 · #126 0 · #126bis 0 · #127 0
 
 | 회의 | 번호 | 구분 | 내용 | 출처 |
 |---|---|---|---|---|
@@ -914,7 +865,7 @@ timeline
 
 ### 9.3 Study of Enhancements for solutions for Ambient IoT (Internet of Things) in NR outdoor for active devices (마지막: RAN1#124)
 
-회의별 결정 수: #122 0 · #122bis 0 · #123 0 · #124 8 · #124bis 0 · #125 0 · #126 0 · #126bis 0
+회의별 결정 수: #122 0 · #122bis 0 · #123 0 · #124 8 · #124bis 0 · #125 0 · #126 0 · #126bis 0 · #127 0
 
 | 회의 | 번호 | 구분 | 내용 | 출처 |
 |---|---|---|---|---|
@@ -929,7 +880,7 @@ timeline
 
 ### 9.3.1 Evaluations (마지막: RAN1#124)
 
-회의별 결정 수: #122 31 · #122bis 10 · #123 3 · #124 5 · #124bis 0 · #125 0 · #126 0 · #126bis 0
+회의별 결정 수: #122 31 · #122bis 10 · #123 3 · #124 5 · #124bis 0 · #125 0 · #126 0 · #126bis 0 · #127 0
 
 | 회의 | 번호 | 구분 | 내용 | 출처 |
 |---|---|---|---|---|
@@ -985,7 +936,7 @@ timeline
 
 ### 9.5 Study on Integrated Sensing And Communication (ISAC) for NR (마지막: RAN1#124)
 
-회의별 결정 수: #122 0 · #122bis 1 · #123 0 · #124 2 · #124bis 0 · #125 0 · #126 0 · #126bis 0
+회의별 결정 수: #122 0 · #122bis 1 · #123 0 · #124 2 · #124bis 0 · #125 0 · #126 0 · #126bis 0 · #127 0
 
 | 회의 | 번호 | 구분 | 내용 | 출처 |
 |---|---|---|---|---|
@@ -995,7 +946,7 @@ timeline
 
 ### 9.5.1 Evaluation assumptions and performance evaluation (마지막: RAN1#124)
 
-회의별 결정 수: #122 8 · #122bis 14 · #123 10 · #124 21 · #124bis 0 · #125 0 · #126 0 · #126bis 0
+회의별 결정 수: #122 8 · #122bis 14 · #123 10 · #124 21 · #124bis 0 · #125 0 · #126 0 · #126bis 0 · #127 0
 
 | 회의 | 번호 | 구분 | 내용 | 출처 |
 |---|---|---|---|---|
@@ -1055,7 +1006,7 @@ timeline
 
 ### 10.1.1.1 Inference related aspects (마지막: RAN1#123)
 
-회의별 결정 수: #122 0 · #122bis 6 · #123 6 · #124 0 · #124bis 0 · #125 0 · #126 0 · #126bis 0
+회의별 결정 수: #122 0 · #122bis 6 · #123 6 · #124 0 · #124bis 0 · #125 0 · #126 0 · #126bis 0 · #127 0
 
 | 회의 | 번호 | 구분 | 내용 | 출처 |
 |---|---|---|---|---|
@@ -1074,7 +1025,7 @@ timeline
 
 ### 10.1.1.2 Other aspects (마지막: RAN1#123)
 
-회의별 결정 수: #122 0 · #122bis 4 · #123 3 · #124 0 · #124bis 0 · #125 0 · #126 0 · #126bis 0
+회의별 결정 수: #122 0 · #122bis 4 · #123 3 · #124 0 · #124bis 0 · #125 0 · #126 0 · #126bis 0 · #127 0
 
 | 회의 | 번호 | 구분 | 내용 | 출처 |
 |---|---|---|---|---|
@@ -1088,7 +1039,7 @@ timeline
 
 ### 10.3.2 Study of air interface for Device 2b/C (마지막: RAN1#122bis)
 
-회의별 결정 수: #122 14 · #122bis 29 · #123 0 · #124 0 · #124bis 0 · #125 0 · #126 0 · #126bis 0
+회의별 결정 수: #122 14 · #122bis 29 · #123 0 · #124 0 · #124bis 0 · #125 0 · #126 0 · #126bis 0 · #127 0
 
 | 회의 | 번호 | 구분 | 내용 | 출처 |
 |---|---|---|---|---|

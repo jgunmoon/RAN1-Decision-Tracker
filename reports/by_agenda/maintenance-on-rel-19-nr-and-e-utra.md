@@ -4,6 +4,10 @@
 
 공식 Agenda 기준으로 이 섹션의 결정을 모았습니다. 번호는 최신 회의 기준이며, 회의 간 연결은 같은 섹션 안의 같은 Agenda 제목으로 합니다.
 
+> 이 섹션은 RAN1#126bis 이후 Agenda에 없습니다.
+
+> ⚠️ **RAN1#127는 잠정 결과입니다.** 회의 종료본이 아닌 `Chair notes RAN1#127_v05.docx` 기준이라 결정이 바뀌거나 빠질 수 있습니다. 종료본이 FTP에 올라오면 다음 실행에서 자동으로 교체됩니다.
+
 ## 회의별 결정 수
 
 ```mermaid
@@ -19,19 +23,13 @@ timeline
     RAN1#35;126bis : 결정 29
 ```
 
-## 직전 회의 대비 (RAN1#126 → RAN1#126bis)
+## 최신 회의에는 없는 Agenda
 
-- 신규 결정 29건 (Agreement 27, Working Assumption 0, Conclusion 2)
-- Agenda 신설: Maintenance on UE features
-- Agenda 제외: 없음
+삭제됐거나 제목이 바뀐 Agenda입니다. 제목이 바뀐 경우에도 자동으로 잇지 않으니 위 목록과 비교해 보세요.
 
-## 8 Maintenance on Rel-19 NR and E-UTRA
+### 8.1 Maintenance on AI/ML for NR Air interface, NR MIMO Phase 5,  NES and NTN for NR and IoT (마지막: RAN1#126bis)
 
-회의별 결정 수 (하위 Agenda 포함): #122 0 · #122bis 29 · #123 19 · #124 15 · #124bis 10 · #125 21 · #126 33 · #126bis 29
-
-### 8.1 Maintenance on AI/ML for NR Air interface, NR MIMO Phase 5,  NES and NTN for NR and IoT
-
-회의별 결정 수 (하위 Agenda 포함): #122 0 · #122bis 0 · #123 0 · #124 0 · #124bis 0 · #125 11 · #126 19 · #126bis 11
+회의별 결정 수: #122 0 · #122bis 0 · #123 0 · #124 0 · #124bis 0 · #125 11 · #126 19 · #126bis 11 · #127 0
 
 | 회의 | 번호 | 구분 | 내용 | 출처 |
 |---|---|---|---|---|
@@ -77,11 +75,9 @@ timeline
 | RAN1#126bis | 8.1 | Agreement | Proposal 2 in Section 4 of R1-2608695 is endorsed as Alignment CR for Rel-19 TS38.213.<br>NR-NTN | [Chair notes RAN1#126bis_eom1](https://www.3gpp.org/ftp/tsg_ran/WG1_RL1/TSGR1_126b/Inbox/Chair_notes/Chair%20notes%20RAN1%23126bis_eom1.docx)<br>`[126bis-R19-AI 8.1]` |
 | RAN1#126bis | 8.1 | Agreement | The following TP is endorsed for Rel-19 TS38.214, Clause 6.1.2.1 is endorsed.<br>The corresponding final CR for Rel-19 TS38.214, Clause 6.1.2.1 in R1-2608741 is endorsed.<br>- Reason for change: The OCC length parameter for Rel-19 NR NTN is not clearly captured in TS 38.214.<br>- Summary of change: For Rel-19 NR NTN, OCC length is provided by occ-LengthAndSequenceIndex for configured grant Type-1 PUSCH and occ-Length-r19 for DG PUSCH and configured grant Type 2 PUSCH.<br>- Consequences if not approved: Unclear UE behaviour<br>\| 6.1.2.1 Resource allocation in time domain *** Unchanged parts are omitted *** For a PUSCH transmission with repetition Type A, a UE considers OCC operation enabled if the PUSCH is it is configured with or indicated an OCC length, LOCC > 1. a configured grant Type 1 PUSCH with an OCC length LOCC provided by occ-LengthAndSequenceIndex, or a dynamic grant PUSCH or configured grant Type 2 PUSCH indicated by a DCI format indicating a TDRA row with an OCC length LOCC provided by occ-Length-r19. For a PUSCH transmission with repetition Type A and with OCC operation enabled, an OCC group is defined by Locc consecutive PUSCH repetitions and the integer number of OCC groups M is determined as M=K/Locc OCC group m includes PUSCH repetition m x Locc, m x Locc+1, .., (m+1) x Locc-1, where m=0,1, .., M-1, where repetition i within the OCC group will be multiplied with the OCC factor wi, where i is the repetition index within the OCC group. The OCC factor is for each repetition index i, based on the orthogonal sequence defined in Table 6.3.2.5A-1 and Table 6.3.2.5A-2 of [4, TS 38.211], where the sequence index n is derived from the ‘Antenna Port(s)’ field in the DCI format scheduling the transmission for PUSCH or activating configured grant Type 2 PUSCH according to [5, TS 38.212], or provided by OCCsequenceIndexCGType1-r19 for configured grant Type 1 PUSCH, and provided for actual transmission according to clause 6.3.1.2a in [4, TS 38.211], where i=0,1 for OCC length 2 and i=0,1,2,3 for OCC length 4. *** Unchanged parts are omitted *** \| | [Chair notes RAN1#126bis_eom1](https://www.3gpp.org/ftp/tsg_ran/WG1_RL1/TSGR1_126b/Inbox/Chair_notes/Chair%20notes%20RAN1%23126bis_eom1.docx)<br>`[126bis-R19-AI 8.1]` |
 
-### 8.2 Maintenance on others
+### 8.2 Maintenance on others (마지막: RAN1#126bis)
 
-회의별 결정 수 (하위 Agenda 포함): #122 0 · #122bis 29 · #123 19 · #124 8 · #124bis 7 · #125 10 · #126 14 · #126bis 17
-
-번호 변경: #122bis: 8.8 → #124bis: 8.7 → #125: 8.2
+회의별 결정 수: #122 0 · #122bis 29 · #123 19 · #124 8 · #124bis 7 · #125 10 · #126 14 · #126bis 17 · #127 0
 
 | 회의 | 번호 | 구분 | 내용 | 출처 |
 |---|---|---|---|---|
@@ -190,11 +186,9 @@ timeline
 | RAN1#126bis | 8.2 | Agreement | The default values {1,2,4,8} for NumberOfPUSCH-DCI-0-0-rep-r20 are kept in RRC parameters list. | [Chair notes RAN1#126bis_eom1](https://www.3gpp.org/ftp/tsg_ran/WG1_RL1/TSGR1_126b/Inbox/Chair_notes/Chair%20notes%20RAN1%23126bis_eom1.docx)<br>[R1-2608716](https://www.3gpp.org/ftp/tsg_ran/WG1_RL1/TSGR1_126b/Docs/R1-2608716.zip)<br>`[126bis-R19-AI 8.2]` |
 | RAN1#126bis | 8.2 | Agreement | Following RRC parameter is considered as stable.<br>\| NR_cov_Ph3 \| PUSCH repetition scheduled by DCI 0_0 with C-RNTI \| in PUSCHConfig \| PUSCH-DCI-0-0-Rep-enable-r20 \| new \| To enable/disable the PUSCH repetition scheduled by DCI 0_0 with C-RNTI after RRCReconfiguration \| enable/disable \| Enable \| UE-specific \| 38.331 \| Agreement(RAN1 #125) Support to introduce a RRC signalling transmitted by gNB to disable/enable PUSCH repetition scheduled by DCI format 0_0 with C-RNTI after receiving RRCReconfiguration. \| unstable \| | [Chair notes RAN1#126bis_eom1](https://www.3gpp.org/ftp/tsg_ran/WG1_RL1/TSGR1_126b/Inbox/Chair_notes/Chair%20notes%20RAN1%23126bis_eom1.docx)<br>[R1-2608716](https://www.3gpp.org/ftp/tsg_ran/WG1_RL1/TSGR1_126b/Docs/R1-2608716.zip)<br>`[126bis-R19-AI 8.2]` |
 
-### 8.3 Maintenance on UE features
+### 8.3 Maintenance on UE features (마지막: RAN1#126bis)
 
-회의별 결정 수 (하위 Agenda 포함): #122 0 · #122bis 0 · #123 0 · #124 7 · #124bis 3 · #125 0 · #126 0 · #126bis 1
-
-번호 변경: #124: 8.9 → #124bis: 8.8 → #126bis: 8.3
+회의별 결정 수: #122 0 · #122bis 0 · #123 0 · #124 7 · #124bis 3 · #125 0 · #126 0 · #126bis 1 · #127 0
 
 | 회의 | 번호 | 구분 | 내용 | 출처 |
 |---|---|---|---|---|
@@ -210,13 +204,9 @@ timeline
 | RAN1#124bis | 8.8 | Conclusion | RAN1 will not update FG 58-2-9/10/11. RAN1 will provide the feedback in the LS on updated UE features list to confirm following RAN1 understanding.<br>- FG 58-2-9 should not be reported to the gNB<br>- FG 58-2-10 should not be reported to the gNB<br>- FG 58-2-11 should not be reported to the gNB | [Chair notes RAN1#124bis_eom5](https://www.3gpp.org/ftp/tsg_ran/WG1_RL1/TSGR1_124b/Inbox/Chair_notes/Chair%20notes%20RAN1%23124bis_eom5.docx)<br>[R1-2603328](https://www.3gpp.org/ftp/tsg_ran/WG1_RL1/TSGR1_124b/Docs/R1-2603328.zip)<br>`[124b-R19-UE features]` |
 | RAN1#126bis | 8.3 | Agreement | Send an LS to RAN2 informing them that maxDurationDMRS-Bundling-r17 is used to indicate support of DMRS bundling in HAPS bands<br>Draft LS in R1-2607297 is agreed in principle, and add RAN4 in CC.<br>Final LS in R1-2608717 is agreed. | [Chair notes RAN1#126bis_eom1](https://www.3gpp.org/ftp/tsg_ran/WG1_RL1/TSGR1_126b/Inbox/Chair_notes/Chair%20notes%20RAN1%23126bis_eom1.docx)<br>[R1-2608692](https://www.3gpp.org/ftp/tsg_ran/WG1_RL1/TSGR1_126b/Docs/R1-2608692.zip) |
 
-## 최신 회의에는 없는 Agenda
-
-삭제됐거나 제목이 바뀐 Agenda입니다. 제목이 바뀐 경우에도 자동으로 잇지 않으니 위 목록과 비교해 보세요.
-
 ### 8.1 Maintenance on Artificial Intelligence (AI)/Machine Learning (ML) for NR Air Interface (마지막: RAN1#124bis)
 
-회의별 결정 수: #122 3 · #122bis 15 · #123 8 · #124 7 · #124bis 3 · #125 0 · #126 0 · #126bis 0
+회의별 결정 수: #122 3 · #122bis 15 · #123 8 · #124 7 · #124bis 3 · #125 0 · #126 0 · #126bis 0 · #127 0
 
 | 회의 | 번호 | 구분 | 내용 | 출처 |
 |---|---|---|---|---|
@@ -259,7 +249,7 @@ timeline
 
 ### 8.2 Maintenance on NR MIMO Phase 5 (마지막: RAN1#124bis)
 
-회의별 결정 수: #122 0 · #122bis 19 · #123 14 · #124 8 · #124bis 9 · #125 0 · #126 0 · #126bis 0
+회의별 결정 수: #122 0 · #122bis 19 · #123 14 · #124 8 · #124bis 9 · #125 0 · #126 0 · #126bis 0 · #127 0
 
 | 회의 | 번호 | 구분 | 내용 | 출처 |
 |---|---|---|---|---|
@@ -316,7 +306,7 @@ timeline
 
 ### 8.3 Maintenance on Evolution of NR duplex operation: Sub-band full duplex (SBFD) (마지막: RAN1#124bis)
 
-회의별 결정 수: #122 0 · #122bis 18 · #123 15 · #124 3 · #124bis 5 · #125 0 · #126 0 · #126bis 0
+회의별 결정 수: #122 0 · #122bis 18 · #123 15 · #124 3 · #124bis 5 · #125 0 · #126 0 · #126bis 0 · #127 0
 
 | 회의 | 번호 | 구분 | 내용 | 출처 |
 |---|---|---|---|---|
@@ -364,7 +354,7 @@ timeline
 
 ### 8.4 Maintenance on Enhancements of network energy savings for NR (마지막: RAN1#124bis)
 
-회의별 결정 수: #122 0 · #122bis 11 · #123 15 · #124 12 · #124bis 12 · #125 0 · #126 0 · #126bis 0
+회의별 결정 수: #122 0 · #122bis 11 · #123 15 · #124 12 · #124bis 12 · #125 0 · #126 0 · #126bis 0 · #127 0
 
 | 회의 | 번호 | 구분 | 내용 | 출처 |
 |---|---|---|---|---|
@@ -421,7 +411,7 @@ timeline
 
 ### 8.5 Maintenance on Low-power wake-up signal and receiver for NR (LP-WUS/WUR) (마지막: RAN1#124bis)
 
-회의별 결정 수: #122 0 · #122bis 15 · #123 11 · #124 8 · #124bis 5 · #125 0 · #126 0 · #126bis 0
+회의별 결정 수: #122 0 · #122bis 15 · #123 11 · #124 8 · #124bis 5 · #125 0 · #126 0 · #126bis 0 · #127 0
 
 | 회의 | 번호 | 구분 | 내용 | 출처 |
 |---|---|---|---|---|
@@ -467,7 +457,7 @@ timeline
 
 ### 8.6.1 Maintenance for Rel-19 NR NTN (마지막: RAN1#124bis)
 
-회의별 결정 수: #122 0 · #122bis 18 · #123 4 · #124 4 · #124bis 7 · #125 0 · #126 0 · #126bis 0
+회의별 결정 수: #122 0 · #122bis 18 · #123 4 · #124 4 · #124bis 7 · #125 0 · #126 0 · #126bis 0 · #127 0
 
 | 회의 | 번호 | 구분 | 내용 | 출처 |
 |---|---|---|---|---|
@@ -507,7 +497,7 @@ timeline
 
 ### 8.6.2 Maintenance for Rel-19 IoT NTN (마지막: RAN1#124bis)
 
-회의별 결정 수: #122 0 · #122bis 16 · #123 11 · #124 5 · #124bis 4 · #125 0 · #126 0 · #126bis 0
+회의별 결정 수: #122 0 · #122bis 16 · #123 11 · #124 5 · #124bis 4 · #125 0 · #126 0 · #126bis 0 · #127 0
 
 | 회의 | 번호 | 구분 | 내용 | 출처 |
 |---|---|---|---|---|
@@ -550,7 +540,7 @@ timeline
 
 ### 8.4 Maintenance on Solutions for Ambient IoT (Internet of Things) in NR (마지막: RAN1#124)
 
-회의별 결정 수: #122 14 · #122bis 5 · #123 3 · #124 1 · #124bis 0 · #125 0 · #126 0 · #126bis 0
+회의별 결정 수: #122 14 · #122bis 5 · #123 3 · #124 1 · #124bis 0 · #125 0 · #126 0 · #126bis 0 · #127 0
 
 | 회의 | 번호 | 구분 | 내용 | 출처 |
 |---|---|---|---|---|
@@ -580,7 +570,7 @@ timeline
 
 ### 8.1.1 Specification support for beam management (마지막: RAN1#122)
 
-회의별 결정 수: #122 12 · #122bis 0 · #123 0 · #124 0 · #124bis 0 · #125 0 · #126 0 · #126bis 0
+회의별 결정 수: #122 12 · #122bis 0 · #123 0 · #124 0 · #124bis 0 · #125 0 · #126 0 · #126bis 0 · #127 0
 
 | 회의 | 번호 | 구분 | 내용 | 출처 |
 |---|---|---|---|---|
@@ -599,7 +589,7 @@ timeline
 
 ### 8.1.2 Specification support for positioning accuracy enhancement (마지막: RAN1#122)
 
-회의별 결정 수: #122 5 · #122bis 0 · #123 0 · #124 0 · #124bis 0 · #125 0 · #126 0 · #126bis 0
+회의별 결정 수: #122 5 · #122bis 0 · #123 0 · #124 0 · #124bis 0 · #125 0 · #126 0 · #126bis 0 · #127 0
 
 | 회의 | 번호 | 구분 | 내용 | 출처 |
 |---|---|---|---|---|
@@ -611,7 +601,7 @@ timeline
 
 ### 8.1.3 Specification support for CSI prediction (마지막: RAN1#122)
 
-회의별 결정 수: #122 9 · #122bis 0 · #123 0 · #124 0 · #124bis 0 · #125 0 · #126 0 · #126bis 0
+회의별 결정 수: #122 9 · #122bis 0 · #123 0 · #124 0 · #124bis 0 · #125 0 · #126 0 · #126bis 0 · #127 0
 
 | 회의 | 번호 | 구분 | 내용 | 출처 |
 |---|---|---|---|---|
@@ -627,7 +617,7 @@ timeline
 
 ### 8.2.1 Enhancements for UE-initiated/event-driven beam management (마지막: RAN1#122)
 
-회의별 결정 수: #122 8 · #122bis 0 · #123 0 · #124 0 · #124bis 0 · #125 0 · #126 0 · #126bis 0
+회의별 결정 수: #122 8 · #122bis 0 · #123 0 · #124 0 · #124bis 0 · #125 0 · #126 0 · #126bis 0 · #127 0
 
 | 회의 | 번호 | 구분 | 내용 | 출처 |
 |---|---|---|---|---|
@@ -642,7 +632,7 @@ timeline
 
 ### 8.2.2 CSI enhancements (마지막: RAN1#122)
 
-회의별 결정 수: #122 8 · #122bis 0 · #123 0 · #124 0 · #124bis 0 · #125 0 · #126 0 · #126bis 0
+회의별 결정 수: #122 8 · #122bis 0 · #123 0 · #124 0 · #124bis 0 · #125 0 · #126 0 · #126bis 0 · #127 0
 
 | 회의 | 번호 | 구분 | 내용 | 출처 |
 |---|---|---|---|---|
@@ -657,7 +647,7 @@ timeline
 
 ### 8.2.3 Support for 3-antenna-port codebook-based transmissions (마지막: RAN1#122)
 
-회의별 결정 수: #122 5 · #122bis 0 · #123 0 · #124 0 · #124bis 0 · #125 0 · #126 0 · #126bis 0
+회의별 결정 수: #122 5 · #122bis 0 · #123 0 · #124 0 · #124bis 0 · #125 0 · #126 0 · #126bis 0 · #127 0
 
 | 회의 | 번호 | 구분 | 내용 | 출처 |
 |---|---|---|---|---|
@@ -669,7 +659,7 @@ timeline
 
 ### 8.2.4 Enhancement for asymmetric DL sTRP/UL mTRP scenarios (마지막: RAN1#122)
 
-회의별 결정 수: #122 4 · #122bis 0 · #123 0 · #124 0 · #124bis 0 · #125 0 · #126 0 · #126bis 0
+회의별 결정 수: #122 4 · #122bis 0 · #123 0 · #124 0 · #124bis 0 · #125 0 · #126 0 · #126bis 0 · #127 0
 
 | 회의 | 번호 | 구분 | 내용 | 출처 |
 |---|---|---|---|---|
@@ -680,7 +670,7 @@ timeline
 
 ### 8.3.1 SBFD TX/RX/measurement procedures (마지막: RAN1#122)
 
-회의별 결정 수: #122 5 · #122bis 0 · #123 0 · #124 0 · #124bis 0 · #125 0 · #126 0 · #126bis 0
+회의별 결정 수: #122 5 · #122bis 0 · #123 0 · #124 0 · #124bis 0 · #125 0 · #126 0 · #126bis 0 · #127 0
 
 | 회의 | 번호 | 구분 | 내용 | 출처 |
 |---|---|---|---|---|
@@ -692,7 +682,7 @@ timeline
 
 ### 8.3.2 SBFD random access operation (마지막: RAN1#122)
 
-회의별 결정 수: #122 3 · #122bis 0 · #123 0 · #124 0 · #124bis 0 · #125 0 · #126 0 · #126bis 0
+회의별 결정 수: #122 3 · #122bis 0 · #123 0 · #124 0 · #124bis 0 · #125 0 · #126 0 · #126bis 0 · #127 0
 
 | 회의 | 번호 | 구분 | 내용 | 출처 |
 |---|---|---|---|---|
@@ -702,7 +692,7 @@ timeline
 
 ### 8.3.3 CLI handling (마지막: RAN1#122)
 
-회의별 결정 수: #122 6 · #122bis 0 · #123 0 · #124 0 · #124bis 0 · #125 0 · #126 0 · #126bis 0
+회의별 결정 수: #122 6 · #122bis 0 · #123 0 · #124 0 · #124bis 0 · #125 0 · #126 0 · #126bis 0 · #127 0
 
 | 회의 | 번호 | 구분 | 내용 | 출처 |
 |---|---|---|---|---|
@@ -715,7 +705,7 @@ timeline
 
 ### 8.5.1 On-demand SSB SCell operation (마지막: RAN1#122)
 
-회의별 결정 수: #122 8 · #122bis 0 · #123 0 · #124 0 · #124bis 0 · #125 0 · #126 0 · #126bis 0
+회의별 결정 수: #122 8 · #122bis 0 · #123 0 · #124 0 · #124bis 0 · #125 0 · #126 0 · #126bis 0 · #127 0
 
 | 회의 | 번호 | 구분 | 내용 | 출처 |
 |---|---|---|---|---|
@@ -730,7 +720,7 @@ timeline
 
 ### 8.5.2 On-demand SIB1 for idle/inactive mode Ues (마지막: RAN1#122)
 
-회의별 결정 수: #122 3 · #122bis 0 · #123 0 · #124 0 · #124bis 0 · #125 0 · #126 0 · #126bis 0
+회의별 결정 수: #122 3 · #122bis 0 · #123 0 · #124 0 · #124bis 0 · #125 0 · #126 0 · #126bis 0 · #127 0
 
 | 회의 | 번호 | 구분 | 내용 | 출처 |
 |---|---|---|---|---|
@@ -740,7 +730,7 @@ timeline
 
 ### 8.5.3 Adaptation of common signal/channel transmissions (마지막: RAN1#122)
 
-회의별 결정 수: #122 2 · #122bis 0 · #123 0 · #124 0 · #124bis 0 · #125 0 · #126 0 · #126bis 0
+회의별 결정 수: #122 2 · #122bis 0 · #123 0 · #124 0 · #124bis 0 · #125 0 · #126 0 · #126bis 0 · #127 0
 
 | 회의 | 번호 | 구분 | 내용 | 출처 |
 |---|---|---|---|---|
@@ -749,7 +739,7 @@ timeline
 
 ### 8.6.1 LP-WUS and LP-SS design (마지막: RAN1#122)
 
-회의별 결정 수: #122 6 · #122bis 0 · #123 0 · #124 0 · #124bis 0 · #125 0 · #126 0 · #126bis 0
+회의별 결정 수: #122 6 · #122bis 0 · #123 0 · #124 0 · #124bis 0 · #125 0 · #126 0 · #126bis 0 · #127 0
 
 | 회의 | 번호 | 구분 | 내용 | 출처 |
 |---|---|---|---|---|
@@ -762,7 +752,7 @@ timeline
 
 ### 8.6.2 LP-WUS operation in IDLE/INACTIVE modes (마지막: RAN1#122)
 
-회의별 결정 수: #122 7 · #122bis 0 · #123 0 · #124 0 · #124bis 0 · #125 0 · #126 0 · #126bis 0
+회의별 결정 수: #122 7 · #122bis 0 · #123 0 · #124 0 · #124bis 0 · #125 0 · #126 0 · #126bis 0 · #127 0
 
 | 회의 | 번호 | 구분 | 내용 | 출처 |
 |---|---|---|---|---|
@@ -776,7 +766,7 @@ timeline
 
 ### 8.6.3 LP-WUS operation in CONNECTED modes (마지막: RAN1#122)
 
-회의별 결정 수: #122 11 · #122bis 0 · #123 0 · #124 0 · #124bis 0 · #125 0 · #126 0 · #126bis 0
+회의별 결정 수: #122 11 · #122bis 0 · #123 0 · #124 0 · #124bis 0 · #125 0 · #126 0 · #126bis 0 · #127 0
 
 | 회의 | 번호 | 구분 | 내용 | 출처 |
 |---|---|---|---|---|
@@ -794,7 +784,7 @@ timeline
 
 ### 8.7 Maintenance on channel modelling for Integrated Sensing And Communication (ISAC) for NR (마지막: RAN1#122)
 
-회의별 결정 수: #122 25 · #122bis 0 · #123 0 · #124 0 · #124bis 0 · #125 0 · #126 0 · #126bis 0
+회의별 결정 수: #122 25 · #122bis 0 · #123 0 · #124 0 · #124bis 0 · #125 0 · #126 0 · #126bis 0 · #127 0
 
 | 회의 | 번호 | 구분 | 내용 | 출처 |
 |---|---|---|---|---|
@@ -826,7 +816,7 @@ timeline
 
 ### 8.8 Maintenance on channel modelling enhancements for 7-24GHz for NR (마지막: RAN1#122)
 
-회의별 결정 수: #122 11 · #122bis 0 · #123 0 · #124 0 · #124bis 0 · #125 0 · #126 0 · #126bis 0
+회의별 결정 수: #122 11 · #122bis 0 · #123 0 · #124 0 · #124bis 0 · #125 0 · #126 0 · #126bis 0 · #127 0
 
 | 회의 | 번호 | 구분 | 내용 | 출처 |
 |---|---|---|---|---|
@@ -844,7 +834,7 @@ timeline
 
 ### 8.9.1 Measurements related enhancements for LTM (마지막: RAN1#122)
 
-회의별 결정 수: #122 10 · #122bis 0 · #123 0 · #124 0 · #124bis 0 · #125 0 · #126 0 · #126bis 0
+회의별 결정 수: #122 10 · #122bis 0 · #123 0 · #124 0 · #124bis 0 · #125 0 · #126 0 · #126bis 0 · #127 0
 
 | 회의 | 번호 | 구분 | 내용 | 출처 |
 |---|---|---|---|---|
@@ -861,7 +851,7 @@ timeline
 
 ### 8.10.1 Enabling TX/RX for XR during RRM measurements (마지막: RAN1#122)
 
-회의별 결정 수: #122 1 · #122bis 0 · #123 0 · #124 0 · #124bis 0 · #125 0 · #126 0 · #126bis 0
+회의별 결정 수: #122 1 · #122bis 0 · #123 0 · #124 0 · #124bis 0 · #125 0 · #126 0 · #126bis 0 · #127 0
 
 | 회의 | 번호 | 구분 | 내용 | 출처 |
 |---|---|---|---|---|
@@ -869,7 +859,7 @@ timeline
 
 ### 8.11 Maintenance on Non-Terrestrial Networks (NTN) for NR Phase 3, Internet of Things (IoT) Phase 3, and IoT-NTN TDD mode (마지막: RAN1#122)
 
-회의별 결정 수: #122 1 · #122bis 0 · #123 0 · #124 0 · #124bis 0 · #125 0 · #126 0 · #126bis 0
+회의별 결정 수: #122 1 · #122bis 0 · #123 0 · #124 0 · #124bis 0 · #125 0 · #126 0 · #126bis 0 · #127 0
 
 | 회의 | 번호 | 구분 | 내용 | 출처 |
 |---|---|---|---|---|
@@ -877,7 +867,7 @@ timeline
 
 ### 8.11.1 NR-NTN downlink coverage enhancement (마지막: RAN1#122)
 
-회의별 결정 수: #122 7 · #122bis 0 · #123 0 · #124 0 · #124bis 0 · #125 0 · #126 0 · #126bis 0
+회의별 결정 수: #122 7 · #122bis 0 · #123 0 · #124 0 · #124bis 0 · #125 0 · #126 0 · #126bis 0 · #127 0
 
 | 회의 | 번호 | 구분 | 내용 | 출처 |
 |---|---|---|---|---|
@@ -891,7 +881,7 @@ timeline
 
 ### 8.11.2 Support of RedCap and eRedCap UEs with NR NTN operating in FR1-NTN bands (마지막: RAN1#122)
 
-회의별 결정 수: #122 2 · #122bis 0 · #123 0 · #124 0 · #124bis 0 · #125 0 · #126 0 · #126bis 0
+회의별 결정 수: #122 2 · #122bis 0 · #123 0 · #124 0 · #124bis 0 · #125 0 · #126 0 · #126bis 0 · #127 0
 
 | 회의 | 번호 | 구분 | 내용 | 출처 |
 |---|---|---|---|---|
@@ -900,7 +890,7 @@ timeline
 
 ### 8.11.3 NR-NTN uplink capacity/throughput enhancement (마지막: RAN1#122)
 
-회의별 결정 수: #122 6 · #122bis 0 · #123 0 · #124 0 · #124bis 0 · #125 0 · #126 0 · #126bis 0
+회의별 결정 수: #122 6 · #122bis 0 · #123 0 · #124 0 · #124bis 0 · #125 0 · #126 0 · #126bis 0 · #127 0
 
 | 회의 | 번호 | 구분 | 내용 | 출처 |
 |---|---|---|---|---|
@@ -913,7 +903,7 @@ timeline
 
 ### 8.11.4 IoT-NTN uplink capacity/throughput enhancement (마지막: RAN1#122)
 
-회의별 결정 수: #122 14 · #122bis 0 · #123 0 · #124 0 · #124bis 0 · #125 0 · #126 0 · #126bis 0
+회의별 결정 수: #122 14 · #122bis 0 · #123 0 · #124 0 · #124bis 0 · #125 0 · #126 0 · #126bis 0 · #127 0
 
 | 회의 | 번호 | 구분 | 내용 | 출처 |
 |---|---|---|---|---|
@@ -934,7 +924,7 @@ timeline
 
 ### 8.11.5 IoT-NTN TDD mode (마지막: RAN1#122)
 
-회의별 결정 수: #122 9 · #122bis 0 · #123 0 · #124 0 · #124bis 0 · #125 0 · #126 0 · #126bis 0
+회의별 결정 수: #122 9 · #122bis 0 · #123 0 · #124 0 · #124bis 0 · #125 0 · #126 0 · #126bis 0 · #127 0
 
 | 회의 | 번호 | 구분 | 내용 | 출처 |
 |---|---|---|---|---|
@@ -950,7 +940,7 @@ timeline
 
 ### 8.12.1 Multi-carrier enhancements for NR phase 3 (마지막: RAN1#122)
 
-회의별 결정 수: #122 1 · #122bis 0 · #123 0 · #124 0 · #124bis 0 · #125 0 · #126 0 · #126bis 0
+회의별 결정 수: #122 1 · #122bis 0 · #123 0 · #124 0 · #124bis 0 · #125 0 · #126 0 · #126bis 0 · #127 0
 
 | 회의 | 번호 | 구분 | 내용 | 출처 |
 |---|---|---|---|---|
@@ -958,7 +948,7 @@ timeline
 
 ### 8.12.2 Low band carrier aggregation via switching (마지막: RAN1#122)
 
-회의별 결정 수: #122 4 · #122bis 0 · #123 0 · #124 0 · #124bis 0 · #125 0 · #126 0 · #126bis 0
+회의별 결정 수: #122 4 · #122bis 0 · #123 0 · #124 0 · #124bis 0 · #125 0 · #126 0 · #126bis 0 · #127 0
 
 | 회의 | 번호 | 구분 | 내용 | 출처 |
 |---|---|---|---|---|
@@ -969,7 +959,7 @@ timeline
 
 ### 8.13.1 Time-frequency interleaver design for MBMS dedicated cells (마지막: RAN1#122)
 
-회의별 결정 수: #122 5 · #122bis 0 · #123 0 · #124 0 · #124bis 0 · #125 0 · #126 0 · #126bis 0
+회의별 결정 수: #122 5 · #122bis 0 · #123 0 · #124 0 · #124bis 0 · #125 0 · #126 0 · #126bis 0 · #127 0
 
 | 회의 | 번호 | 구분 | 내용 | 출처 |
 |---|---|---|---|---|
@@ -981,7 +971,7 @@ timeline
 
 ### 8.14 Maintenance on R19 TEI (마지막: RAN1#122)
 
-회의별 결정 수: #122 5 · #122bis 0 · #123 0 · #124 0 · #124bis 0 · #125 0 · #126 0 · #126bis 0
+회의별 결정 수: #122 5 · #122bis 0 · #123 0 · #124 0 · #124bis 0 · #125 0 · #126 0 · #126bis 0 · #127 0
 
 | 회의 | 번호 | 구분 | 내용 | 출처 |
 |---|---|---|---|---|
