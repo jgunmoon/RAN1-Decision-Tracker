@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-19T04:30:57+00:00",
+  "updated_at": "2026-11-20T04:18:34+00:00",
   "meetings": {
     "RAN1#122": {
       "ftp_dir": "TSGR1_122",
@@ -166,13 +166,13 @@
     },
     "RAN1#127": {
       "ftp_dir": "TSGR1_127",
-      "chair_notes_url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v09.docx",
+      "chair_notes_url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v12.docx",
       "agenda_source": "agenda.csv",
       "parser_version": 6,
       "chair_notes_location": "3GPP_SYNC",
       "provisional": {
-        "doc": "Chair notes RAN1#127_v09.docx",
-        "reason": "회의 종료본(eom) Chair notes가 아직 없음 (지금 있는 Chair notes: Chair notes RAN1#127_v00.docx, Chair notes RAN1#127_v01.docx, Chair notes RAN1#127_v03.docx, Chair notes RAN1#127_v04.docx, Chair notes RAN1#127_v05.docx, Chair notes RAN1#127_v06.docx, Chair notes RAN1#127_v07.docx, Chair notes RAN1#127_v08.docx, Chair notes RAN1#127_v09.docx, Draft Chair notes RAN1#127_v00.docx, Draft Chair notes RAN1#127_v01.docx, Draft Chair notes RAN1#127_v02.docx)"
+        "doc": "Chair notes RAN1#127_v12.docx",
+        "reason": "회의 종료본(eom) Chair notes가 아직 없음 (지금 있는 Chair notes: Chair notes RAN1#127_v00.docx, Chair notes RAN1#127_v01.docx, Chair notes RAN1#127_v03.docx, Chair notes RAN1#127_v04.docx, Chair notes RAN1#127_v05.docx, Chair notes RAN1#127_v06.docx, Chair notes RAN1#127_v07.docx, Chair notes RAN1#127_v08.docx, Chair notes RAN1#127_v09.docx, Chair notes RAN1#127_v10.docx, Chair notes RAN1#127_v11.docx, Chair notes RAN1#127_v12.docx, Draft Chair notes RAN1#127_v00.docx, Draft Chair notes RAN1#127_v01.docx, Draft Chair notes RAN1#127_v02.docx)"
       },
       "health": {
         "summary": "확인 필요 3건",
@@ -180,7 +180,7 @@
           {
             "level": "warning",
             "code": "count_drop",
-            "message": "결정 수 47건이 직전 3개 회의 평균 354건의 50% 미만입니다.",
+            "message": "결정 수 75건이 직전 3개 회의 평균 354건의 50% 미만입니다.",
             "samples": []
           },
           {
@@ -197,9 +197,9 @@
           }
         ],
         "stats": {
-          "markers": 47,
-          "extracted": 47,
-          "quoted": 0,
+          "markers": 78,
+          "extracted": 75,
+          "quoted": 3,
           "empty": 0,
           "outside": 0
         }
@@ -91035,9 +91035,9 @@
         "FFS the maximum number of UL physical carriers N"
       ],
       "source": {
-        "doc": "Chair notes RAN1#127_v09",
+        "doc": "Chair notes RAN1#127_v12",
         "kind": "chairman_note",
-        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v09.docx",
+        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v12.docx",
         "discussion": "127-R20-6GR-MC-Operation in idle mode"
       }
     },
@@ -91067,9 +91067,9 @@
         "FFS the maximum number of UL physical carriers N"
       ],
       "source": {
-        "doc": "Chair notes RAN1#127_v09",
+        "doc": "Chair notes RAN1#127_v12",
         "kind": "chairman_note",
-        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v09.docx",
+        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v12.docx",
         "discussion": "127-R20-6GR-MC-Operation in idle mode"
       }
     },
@@ -91096,9 +91096,9 @@
       "text": "For further study of initial access for idle mode multi-carrier operation, consider the following additional potential use case:\n  - UC-4: Direct access to a wider-bandwidth carrier\n    - In this use case, an idle/inactive UE camps on a lower-frequency coverage carrier (e.g., FDD) for SI and paging. When [a service requires wider bandwidth and] the UE is within coverage of a wider-bandwidth capacity carrier (e.g., TDD), the UE can use the configuration obtained on the camping carrier to perform initial access directly on the wider-bandwidth carrier.\n    - Study UC-4 under S3b\n    - Compare direct initial access on the wider-bandwidth carrier with the following reference procedures.\n      - Single-carrier initial access on the camping carrier followed by handover to the capacity carrier\n      - Single-carrier initial access on the camping carrier followed by addition/activation of the capacity carrier as an SCell\n      - Cell reselection to the wider-bandwidth carrier followed by single-carrier initial access on that carrier\n      - Cell camping on the wider-bandwidth carrier followed by single-carrier initial access on that carrier\n    - Compare direct initial access on the capacity carrier with each reference procedure in terms of the following aspects:\n      - UE synchronization and measurement effort, including at least the time required and the associated UE and NW energy consumption, and failure cases\n        - Cooperation with RAN2 and RAN4",
       "ffs": [],
       "source": {
-        "doc": "Chair notes RAN1#127_v09",
+        "doc": "Chair notes RAN1#127_v12",
         "kind": "chairman_note",
-        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v09.docx",
+        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v12.docx",
         "discussion": "127-R20-6GR-MC-Operation in idle mode"
       }
     },
@@ -91122,18 +91122,77 @@
         }
       ],
       "type": "Agreement",
-      "text": "For S1 with D1 assuming UC-1, consider the following aspects for initial access:\n  - UL access carrier selection\n    - Take measurement-based selection as the starting point. The UE selects the UL carrier for Msg1 based on measurements on the SI-providing DL carrier.\n      - FFS details including measurement during WI\n      - FFS in case the maximum number of UL physical carriers N>2\n    - FFS: Other candidate options\n  - Reference signal-to-RO mapping\n  - UL Tx power control\n    - Use SSBs on the SI-providing carrier for pathloss estimation.\n    - FFS how to account for the pathloss difference between that DL carrier and a candidate UL carrier during WI\n    - Note: other reference signal can be considered if additional reference signal to SSB is supported\nFor study of S3a, consider the following assumptions and candidate options for initial access, and decide whether to support S3a and the applicable deployment condition(s) in RAN1#128\n  - Applicable at least to UC-1 (UL coverage enhancement / DL-UL coverage imbalance)\n  - FFS: Applicability to other use case(s)\n  - Conside D2 and D3 for study\n  - For UL access carrier selection, reference signal-to-RO mapping, and UL Tx power control, take the assumptions for S1 with D1 as baseline for S3a with at least D1.\n    - Study the use of DL reference signals on a non-SI-providing carrier in the following cases:\n      - UL access carrier selection: When measurements on the SI-providing carrier do not adequately reflect the coverage of candidate UL carriers, e.g., under D3 or when the candidate carriers are in widely separated frequency bands, study using measurements of DL reference signals associated with the candidate UL carriers\n      - Reference signal-to-RO mapping: When the SSBs on the SI-providing carrier do not provide an applicable beam reference for a candidate UL carrier, e.g., under D3, study mapping its ROs to reference signals on the associated DL carrier\n      - UL Tx power control: When the SI-carrier pathloss estimate, together with a configured offset or carrier-/band-specific power-control parameters, does not adequately represent the pathloss of the selected UL carrier, e.g., under D3 or when the SI-providing carrier and the selected UL carrier are in widely separated frequency bands, study using a DL reference associated with that UL carrier for pathloss estimation\n  - Synchronization acquisition, UL transmission timing and TA acquisition\n    - For D1, take the SI-providing DL carrier as the timing and frequency reference for Msg1 as a starting point.\n    - For D2/D3, consider using a DL reference associated with the selected UL carrier for Msg1. The SI-carrier reference may also be used if the residual timing and frequency errors are within the applicable tolerances.\n    - For Msg3, the UE applies the TA received in Msg2 on the SI-providing DL carrier relative to the timing reference used for Msg1.\n  - UE measurement behaviour\n    - If a new measurement on an additional DL carrier is needed before Msg1 transmission, consider the following triggers:\n      - Option 1: Measurement triggered by access initiation\n        - When paging or a mobile-originated access request triggers initial access, the UE measures the additional DL carrier before transmitting Msg1.\n      - Option 2: Measurement triggered by camping-carrier quality\n        - The UE starts measuring the additional DL carrier when the measured quality of the camping carrier meets a configured condition.",
+      "text": "For S1 with D1 assuming UC-1, consider the following aspects for initial access:\n  - UL access carrier selection\n    - Take measurement-based selection as the starting point. The UE selects the UL carrier for Msg1 based on measurements on the SI-providing DL carrier.\n      - FFS details including measurement during WI\n      - FFS in case the maximum number of UL physical carriers N>2\n    - FFS: Other candidate options\n  - Reference signal-to-RO mapping\n  - UL Tx power control\n    - Use SSBs on the SI-providing carrier for pathloss estimation.\n    - FFS how to account for the pathloss difference between that DL carrier and a candidate UL carrier during WI\n    - Note: other reference signal can be considered if additional reference signal to SSB is supported",
       "ffs": [
         "FFS details including measurement during WI",
         "FFS in case the maximum number of UL physical carriers N>2",
         "FFS: Other candidate options",
-        "FFS how to account for the pathloss difference between that DL carrier and a candidate UL carrier during WI",
+        "FFS how to account for the pathloss difference between that DL carrier and a candidate UL carrier during WI"
+      ],
+      "source": {
+        "doc": "Chair notes RAN1#127_v12",
+        "kind": "chairman_note",
+        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v12.docx",
+        "discussion": "127-R20-6GR-MC-Operation in idle mode"
+      }
+    },
+    {
+      "id": "RAN1#127:10.4.1:005",
+      "meeting": "RAN1#127",
+      "agenda_item": "10.4.1",
+      "agenda_title": "Operation in idle mode",
+      "agenda_path": [
+        {
+          "number": "10",
+          "title": "Rel-20 Study of 6GR"
+        },
+        {
+          "number": "10.4",
+          "title": "Multiple carrier operation"
+        },
+        {
+          "number": "10.4.1",
+          "title": "Operation in idle mode"
+        }
+      ],
+      "type": "Agreement",
+      "text": "For study of S3a, consider the following aspects for initial access, and decide whether to support S3a and the applicable deployment condition(s) in RAN1#128\n  - Applicable at least to UC-1 (UL coverage enhancement / DL-UL coverage imbalance)\n  - FFS: Applicability to other use case(s)\n  - Consider D2 and D3 for study\n  - UL access carrier selection\n    - For UC-1, take measurement-based selection as the starting point. Study the necessity and conditions of UL access carrier selection based on measurements on the non-SI-providing carrier\n  - Reference signal-to-RO mapping\n    - Study the necessity and conditions of RO mapping from the SSBs on the non-SI-providing carrier\n  - UL Tx power control\n    - Study the necessity and conditions of pathloss estimation based on SSBs on the non-SI-providing carrier\n  - Synchronization acquisition, UL transmission timing\n    - Study the necessity and conditions of synchronization acquisition and/or UL transmission timing based on SSBs on the non-SI-providing carrier\n  - Note: other reference signal can be considered if additional reference signal to SSB is supported",
+      "ffs": [
         "FFS: Applicability to other use case(s)"
       ],
       "source": {
-        "doc": "Chair notes RAN1#127_v09",
+        "doc": "Chair notes RAN1#127_v12",
         "kind": "chairman_note",
-        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v09.docx",
+        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v12.docx",
+        "discussion": "127-R20-6GR-MC-Operation in idle mode"
+      }
+    },
+    {
+      "id": "RAN1#127:10.4.1:006",
+      "meeting": "RAN1#127",
+      "agenda_item": "10.4.1",
+      "agenda_title": "Operation in idle mode",
+      "agenda_path": [
+        {
+          "number": "10",
+          "title": "Rel-20 Study of 6GR"
+        },
+        {
+          "number": "10.4",
+          "title": "Multiple carrier operation"
+        },
+        {
+          "number": "10.4.1",
+          "title": "Operation in idle mode"
+        }
+      ],
+      "type": "Conclusion",
+      "text": "For the purpose of RAN1 discussion, for S1 and S3 (S3a and S3b), each of N UL physical carriers can be from a FDD band, a TDD band or an SUL band as defined in 5G NR.\n- Note: band definition and evaluation of RF on UE is up to RAN4.",
+      "ffs": [],
+      "source": {
+        "doc": "Chair notes RAN1#127_v12",
+        "kind": "chairman_note",
+        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v12.docx",
         "discussion": "127-R20-6GR-MC-Operation in idle mode"
       }
     },
@@ -91165,9 +91224,9 @@
         "FFS cross-carrier DL scheduling"
       ],
       "source": {
-        "doc": "Chair notes RAN1#127_v09",
+        "doc": "Chair notes RAN1#127_v12",
         "kind": "chairman_note",
-        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v09.docx",
+        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v12.docx",
         "discussion": "127-R20-6GR-MC-Operation in connected mode"
       }
     },
@@ -91194,9 +91253,9 @@
       "text": "For bandwidth operation with single carrier operation in CONNECTED mode for a UE in 6G,\n- For DL, conclude the following for PDSCH and PDCCH reception\n  - The schedulable frequency resources for the PDSCH is either identical to or contained within active “6GR-BW”.\n  - PDCCH monitoring is within an active 6GR-BW.\n- Note: Handling of random access in CONNECTED mode to be revisited after random access in IDLE mode has progressed further under the initial access agenda item",
       "ffs": [],
       "source": {
-        "doc": "Chair notes RAN1#127_v09",
+        "doc": "Chair notes RAN1#127_v12",
         "kind": "chairman_note",
-        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v09.docx",
+        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v12.docx",
         "discussion": "127-R20-6GR-MC-Operation in connected mode"
       }
     },
@@ -91227,9 +91286,9 @@
       "text": "For 6GR PSS,\n- 6GR PSS carry 3 physical Cell ID hypotheses",
       "ffs": [],
       "source": {
-        "doc": "Chair notes RAN1#127_v09",
+        "doc": "Chair notes RAN1#127_v12",
         "kind": "chairman_note",
-        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v09.docx",
+        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v12.docx",
         "discussion": "127-R20-6GR-Synchronization and Beam Measurement"
       }
     },
@@ -91260,9 +91319,9 @@
       "text": "For 6GR SSS\n- The sequence type is Gold sequence\n- The number of SSS sequences for carrying physical Cell ID is 336 per PSS physical Cell ID hypotheses\n  - Note: continue to study the motivation to carry other information",
       "ffs": [],
       "source": {
-        "doc": "Chair notes RAN1#127_v09",
+        "doc": "Chair notes RAN1#127_v12",
         "kind": "chairman_note",
-        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v09.docx",
+        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v12.docx",
         "discussion": "127-R20-6GR-Synchronization and Beam Measurement"
       }
     },
@@ -91293,9 +91352,143 @@
       "text": "For SSB design, downselect one from Alt 1 and Alt 2,\nAlt 1:\n- One 6GR SSB spans 4 OFDM symbols within a slot, with 1 symbol for PSS and 1 symbol for SSS\nAlt 2:\n- One 6GR SSB spans 5 OFDM symbols within a slot, with 2 symbols for PSS and 1 symbol for SSS",
       "ffs": [],
       "source": {
-        "doc": "Chair notes RAN1#127_v09",
+        "doc": "Chair notes RAN1#127_v12",
         "kind": "chairman_note",
-        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v09.docx",
+        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v12.docx",
+        "discussion": "127-R20-6GR-Synchronization and Beam Measurement"
+      }
+    },
+    {
+      "id": "RAN1#127:10.5.1.1:004",
+      "meeting": "RAN1#127",
+      "agenda_item": "10.5.1.1",
+      "agenda_title": "Synchronization acquisition and beam measurement",
+      "agenda_path": [
+        {
+          "number": "10",
+          "title": "Rel-20 Study of 6GR"
+        },
+        {
+          "number": "10.5",
+          "title": "Multi-antenna system"
+        },
+        {
+          "number": "10.5.1",
+          "title": "Initial access and mobility"
+        },
+        {
+          "number": "10.5.1.1",
+          "title": "Synchronization acquisition and beam measurement"
+        }
+      ],
+      "type": "Agreement",
+      "text": "The coverage gaps relative to the basic coverage of 143 dB MaxCL and extended coverage of 153 dB MaxCL for different signals and channels during initial access are captured in the following tables.\nNote: It is understood that the trimmed mean Msg5 PUSCH is using the evaluation results assuming different payload.\nTable X: Coverage gap relative to 143 dB MaxCL for different signals and channels during initial access based on R15 NR assumptions, 0.7 GHz, 15kHz SCS, 2T2R or DL, 1T2R for UL\n| Signals/channels | Number of Sample(s) | Coverage gap (trimmed mean) | Standard Deviation (w/o outlier) |\n| PSS/SSS w/o combining | 9 | -1.54 | 1.12 |\n| PBCH w/o combining | 9 | 0.34 | 1.18 |\n| PSS/SSS w/ 4 combining | 8 | 3.05 | 0.72 |\n| PBCH w/ 4 combining | 9 | 4.88 | 1.21 |\n| SIB1 PDCCH | 10 | 2.34 | 0.37 |\n| SIB1 PDSCH | 10 | 1.24 | 0.63 |\n| Msg2 PDSCH | 9 | 2.59 | 1.59 |\n| Msg4 PDSCH | 9 | 1.58 | 0.49 |\n| PRACH format 0 | 9 | -2.77 | 0.63 |\n| PRACH format B4 | 6 | -2.70 | 1.37 |\n| PRACH format C2 | 7 | -6.53 | 1.04 |\n| Msg3 PUSCH | 10 | -5.18 | 0.72 |\n| Msg5 PUSCH | 10 | -10.73 | 3.32 |\n| PUCCH format 1 | 8 | 1.99 | 0.55 |\nTable X: Coverage gap relative to 143 dB MaxCL for different signals and channels during initial access based on R15 NR assumptions, 0.7 GHz, 15kHz SCS, 2T1R for DL\n| Signals/channels | Number of Sample(s) | Coverage gap (trimmed mean) | Standard Deviation (w/o outlier) |\n| PSS/SSS w/o combining | 9 | -6.48 | 1.60 |\n| PBCH w/o combining | 10 | -4.07 | 1.93 |\n| PSS/SSS w/ 4 combining | 8 | -1.08 | 1.26 |\n| PBCH w/ 4 combining | 9 | 1.20 | 1.80 |\n| SIB1 PDCCH | 11 | -1.37 | 0.60 |\n| SIB1 PDSCH | 11 | -2.70 | 0.78 |\n| Msg2 PDSCH | 10 | -1.93 | 1.72 |\n| Msg4 PDSCH | 10 | -2.25 | 0.64 |\nTable X: Coverage gap relative to 153 dB MaxCL for different signals and channels during initial access based on R15 NR assumptions, 0.7 GHz, 15kHz SCS, 2T2R or DL, 1T2R for UL\n| Signals/channels | Number of Sample(s) | Coverage gap (trimmed mean) | Standard Deviation (w/o outlier) |\n| PSS/SSS w/o combining | 9 | -11.54 | 1.12 |\n| PBCH w/o combining | 9 | -9.66 | 1.18 |\n| PSS/SSS w/ 4 combining | 8 | -6.95 | 0.72 |\n| PBCH w/ 4 combining | 9 | -5.12 | 1.21 |\n| SIB1 PDCCH | 10 | -7.66 | 0.37 |\n| SIB1 PDSCH | 10 | -8.76 | 0.63 |\n| Msg2 PDSCH | 9 | -7.41 | 1.59 |\n| Msg4 PDSCH | 9 | -8.42 | 0.49 |\n| PRACH format 0 | 9 | -12.77 | 0.63 |\n| PRACH format B4 | 6 | -12.70 | 1.37 |\n| PRACH format C2 | 7 | -16.53 | 1.04 |\n| Msg3 PUSCH | 10 | -15.18 | 0.72 |\n| Msg5 PUSCH | 10 | -20.73 | 3.32 |\n| PUCCH format 1 | 8 | -8.01 | 0.55 |\nTable X: Coverage gap relative to 153 dB MaxCL for different signals and channels during initial access based on R15 NR assumptions, 0.7 GHz, 15kHz SCS, 2T1R for DL\n| Signals/channels | Number of Sample(s) | Coverage gap (trimmed mean) | Standard Deviation (w/o outlier) |\n| PSS/SSS w/o combining | 9 | -16.48 | 1.60 |\n| PBCH w/o combining | 10 | -14.07 | 1.93 |\n| PSS/SSS w/ 4 combining | 8 | -11.08 | 1.26 |\n| PBCH w/ 4 combining | 9 | -8.80 | 1.80 |\n| SIB1 PDCCH | 11 | -11.37 | 0.60 |\n| SIB1 PDSCH | 11 | -12.70 | 0.78 |\n| Msg2 PDSCH | 10 | -11.93 | 1.72 |\n| Msg4 PDSCH | 10 | -12.25 | 0.64 |\nTable X: Coverage gap relative to 143 dB MaxCL for different signals and channels during initial access based on R15 NR assumptions, 2.6 GHz, 30kHz SCS, 2T2R for DL, 1T2R for UL\n| Signals/channels | Number of Sample(s) | Coverage gap (trimmed mean) | Standard Deviation (w/o outlier) |\n| PSS/SSS w/o combining | 10 | -1.80 | 0.88 |\n| PBCH w/o combining | 11 | 0.45 | 1.46 |\n| PSS/SSS w/ 4 combining | 8 | 3.96 | 0.73 |\n| PBCH w/ 4 combining | 10 | 5.20 | 0.96 |\n| SIB1 PDCCH | 11 | 2.32 | 0.33 |\n| SIB1 PDSCH | 11 | 0.93 | 0.85 |\n| Msg2 PDSCH | 10 | 2.06 | 1.77 |\n| Msg4 PDSCH | 10 | 1.00 | 1.25 |\n| PRACH format 0 | 8 | -2.28 | 0.50 |\n| PRACH format B4 | 7 | -4.37 | 0.61 |\n| PRACH format C2 | 7 | -7.96 | 0.94 |\n| Msg3 PUSCH | 10 | -7.94 | 0.78 |\n| Msg5 PUSCH | 10 | -13.67 | 3.33 |\n| PUCCH format 1 | 8 | -0.50 | 0.91 |\nTable X: Coverage gap relative to 143 dB MaxCL for different signals and channels during initial access based on R15 NR assumptions, 2.6 GHz, 30kHz SCS, 2T1R for DL\n| Signals/channels | Number of Sample(s) | Coverage gap (trimmed mean) | Standard Deviation (w/o outlier) |\n| PSS/SSS w/o combining | 10 | -7.06 | 1.89 |\n| PBCH w/o combining | 10 | -4.74 | 2.63 |\n| PSS/SSS w/ 4 combining | 8 | 0.76 | 0.64 |\n| PBCH w/ 4 combining | 10 | 1.93 | 1.36 |\n| SIB1 PDCCH | 10 | -1.45 | 0.57 |\n| SIB1 PDSCH | 10 | -2.66 | 0.91 |\n| Msg2 PDSCH | 9 | -1.21 | 1.26 |\n| Msg4 PDSCH | 9 | -2.20 | 0.78 |\nTable X: Coverage gap relative to 153 dB MaxCL for different signals and channels during initial access based on R15 NR assumptions, 2.6 GHz, 30kHz SCS, 2T2R for DL, 1T2R for UL\n| Signals/channels | Number of Sample(s) | Coverage gap (trimmed mean) | Standard Deviation (w/o outlier) |\n| PSS/SSS w/o combining | 10 | -11.80 | 0.88 |\n| PBCH w/o combining | 11 | -9.55 | 1.46 |\n| PSS/SSS w/ 4 combining | 8 | -6.04 | 0.73 |\n| PBCH w/ 4 combining | 10 | -4.80 | 0.96 |\n| SIB1 PDCCH | 11 | -7.68 | 0.33 |\n| SIB1 PDSCH | 11 | -9.07 | 0.85 |\n| Msg2 PDSCH | 10 | -7.94 | 1.77 |\n| Msg4 PDSCH | 10 | -9.00 | 1.25 |\n| PRACH format 0 | 8 | -12.28 | 0.50 |\n| PRACH format B4 | 7 | -14.37 | 0.61 |\n| PRACH format C2 | 7 | -17.96 | 0.94 |\n| Msg3 PUSCH | 10 | -17.94 | 0.78 |\n| Msg5 PUSCH | 10 | -23.67 | 3.33 |\n| PUCCH format 1 | 8 | -10.50 | 0.91 |\nTable X: Coverage gap relative to 153 dB MaxCL for different signals and channels during initial access based on R15 NR assumptions, 2.6 GHz, 30kHz SCS, 2T1R for DL\n| Signals/channels | Number of Sample(s) | Coverage gap (trimmed mean) | Standard Deviation (w/o outlier) |\n| PSS/SSS w/o combining | 10 | -17.06 | 1.89 |\n| PBCH w/o combining | 10 | -14.74 | 2.63 |\n| PSS/SSS w/ 4 combining | 8 | -9.24 | 0.64 |\n| PBCH w/ 4 combining | 10 | -8.07 | 1.36 |\n| SIB1 PDCCH | 10 | -11.45 | 0.57 |\n| SIB1 PDSCH | 10 | -12.66 | 0.91 |\n| Msg2 PDSCH | 9 | -11.21 | 1.26 |\n| Msg4 PDSCH | 9 | -12.20 | 0.78 |",
+      "ffs": [],
+      "source": {
+        "doc": "Chair notes RAN1#127_v12",
+        "kind": "chairman_note",
+        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v12.docx",
+        "discussion": "127-R20-6GR-Synchronization and Beam Measurement"
+      }
+    },
+    {
+      "id": "RAN1#127:10.5.1.1:005",
+      "meeting": "RAN1#127",
+      "agenda_item": "10.5.1.1",
+      "agenda_title": "Synchronization acquisition and beam measurement",
+      "agenda_path": [
+        {
+          "number": "10",
+          "title": "Rel-20 Study of 6GR"
+        },
+        {
+          "number": "10.5",
+          "title": "Multi-antenna system"
+        },
+        {
+          "number": "10.5.1",
+          "title": "Initial access and mobility"
+        },
+        {
+          "number": "10.5.1.1",
+          "title": "Synchronization acquisition and beam measurement"
+        }
+      ],
+      "type": "Agreement",
+      "text": "For the extended coverage of 153 dB MaxCL in TR 38.914, study how to meet the requirement with relaxed performance requirements compared to basic coverage for one or more channels/signals during initial access, e.g.:\n- Additional latency, e.g., combining over a larger number of transmissions/periods\n- Relaxed one-shot detection/decoding target, e.g., a relaxed MDR/BLER for a single transmission of a given signal/channel\n- Note: the above does not imply there will be RAN4 requirement\n- Note: The above does not imply that a new basic physical-signal or channel design is required to meet the 153 dB MaxCL target.",
+      "ffs": [],
+      "source": {
+        "doc": "Chair notes RAN1#127_v12",
+        "kind": "chairman_note",
+        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v12.docx",
+        "discussion": "127-R20-6GR-Synchronization and Beam Measurement"
+      }
+    },
+    {
+      "id": "RAN1#127:10.5.1.1:006",
+      "meeting": "RAN1#127",
+      "agenda_item": "10.5.1.1",
+      "agenda_title": "Synchronization acquisition and beam measurement",
+      "agenda_path": [
+        {
+          "number": "10",
+          "title": "Rel-20 Study of 6GR"
+        },
+        {
+          "number": "10.5",
+          "title": "Multi-antenna system"
+        },
+        {
+          "number": "10.5.1",
+          "title": "Initial access and mobility"
+        },
+        {
+          "number": "10.5.1.1",
+          "title": "Synchronization acquisition and beam measurement"
+        }
+      ],
+      "type": "Agreement",
+      "text": "- For UEs in connected mode, additional transmission of synchronization signal(s)/reference signals in addition to the SSBs for initial cell search is supported for at least for T/F tracking and RLM/RRM of serving cell\n- For UEs in idle mode, additional transmission of synchronization/reference signal(s) in addition to the SSBs for initial cell search is provided for fine T/F tracking and beam acquisition\n- FFS: the signal structure of additional synchronization/reference signal(s), including\n  - Alt 1: 6GR SSB\n  - Alt 2: PSS and/or SSS without PBCH or without PBCH data REs\n  - Alt 3: CSI-RS",
+      "ffs": [
+        "FFS: the signal structure of additional synchronization/reference signal(s), including"
+      ],
+      "source": {
+        "doc": "Chair notes RAN1#127_v12",
+        "kind": "chairman_note",
+        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v12.docx",
+        "discussion": "127-R20-6GR-Synchronization and Beam Measurement"
+      }
+    },
+    {
+      "id": "RAN1#127:10.5.1.1:007",
+      "meeting": "RAN1#127",
+      "agenda_item": "10.5.1.1",
+      "agenda_title": "Synchronization acquisition and beam measurement",
+      "agenda_path": [
+        {
+          "number": "10",
+          "title": "Rel-20 Study of 6GR"
+        },
+        {
+          "number": "10.5",
+          "title": "Multi-antenna system"
+        },
+        {
+          "number": "10.5.1",
+          "title": "Initial access and mobility"
+        },
+        {
+          "number": "10.5.1.1",
+          "title": "Synchronization acquisition and beam measurement"
+        }
+      ],
+      "type": "Agreement",
+      "text": "Study FDMed paging, where the paging occasions/messages are multiplexed in frequency domain, to facilitate network energy savings",
+      "ffs": [],
+      "source": {
+        "doc": "Chair notes RAN1#127_v12",
+        "kind": "chairman_note",
+        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v12.docx",
         "discussion": "127-R20-6GR-Synchronization and Beam Measurement"
       }
     },
@@ -91326,9 +91519,9 @@
       "text": "- There is no consensus on need for support of more than 64 preambles per RO for increasing preamble capacity.\nChair Note: Huawei is the only company that object this conclusion",
       "ffs": [],
       "source": {
-        "doc": "Chair notes RAN1#127_v09",
+        "doc": "Chair notes RAN1#127_v12",
         "kind": "chairman_note",
-        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v09.docx",
+        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v12.docx",
         "discussion": "127-R20-6GR-PRACH"
       }
     },
@@ -91359,9 +91552,9 @@
       "text": "- Use NR ZC PRACH sequence design, including the applicable unrestricted/restricted sets and sequence lengths, as the baseline 6GR sequence.\n- Identify the deployment conditions in which sequences do not meet requirements and study how to address, e.g., enhanced single-sequence constructions, and dual-/multi-sequence constructions, with ZC based and non-ZC based sequences.",
       "ffs": [],
       "source": {
-        "doc": "Chair notes RAN1#127_v09",
+        "doc": "Chair notes RAN1#127_v12",
         "kind": "chairman_note",
-        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v09.docx",
+        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v12.docx",
         "discussion": "127-R20-6GR-PRACH"
       }
     },
@@ -91392,9 +91585,9 @@
       "text": "For 2-step RACH study,\n- Physical-layer design of 2-step RACH uses NR 2-step RACH (MsgA PRACH, MsgA PUSCH and MsgB) as the starting point.\n  - Correspondence between MsgA PRACH (preamble/RO) and MsgA PUSCH/DMRS, including the mapping ratio.\nFor RACH-less/contention-based PUSCH (CB-PUSCH) access study, further study the following:\n- Target UEs and scenarios, e.g., stationary/low-mobility UEs (e.g., FWA, mIoT   such as meters and sensors), and high RSRP UEs, and NTN UEs with GNSS-based timing/frequency pre-compensation.\nFor dedicated RACH (1-step) using a UE-dedicated PRACH preamble study, further study the following:\n- Applicable RRC states and use cases (e.g., paging-triggered RA, grant-free/shared data transmission, scheduling request for UEs without valid TA).\n- Assumptions for the number of users in the network and the number of sequences needed for UE dedicated PRACH preamble and justification of feasibility.\n- Detection performance to detect correct UE dedicated PRACH preamble\nOn the justification of the additional procedure(s) study,\n- UE RRC states and benefits (e.g., latency, signaling overhead, UE/network energy) relative to 4-step RACH, considering the resource/configuration overhead and UE/BS complexity of supporting 4-step RA and other procedures in a cell.",
       "ffs": [],
       "source": {
-        "doc": "Chair notes RAN1#127_v09",
+        "doc": "Chair notes RAN1#127_v12",
         "kind": "chairman_note",
-        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v09.docx",
+        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v12.docx",
         "discussion": "127-R20-6GR-PRACH"
       }
     },
@@ -91422,12 +91615,111 @@
         }
       ],
       "type": "Agreement",
-      "text": "Use the following scenario-based preamble design targets for the 6GR PRACH preamble format study:\n| Identifier (company + Index) | Carrier Frequency | Delay (Max RTT + Delay Spread) | Doppler Shift | Notes (any information to additional share, e.g., sequence length, occupied BW, SCS, number of sequence repetition, preamble duration, frame structure restrictions, information on derivation, motivation, etc) |\n| FL-1 | Around 0.7, 2, 4, 7 GHz (FDD, TDD, SBFD) | 7.7 µs + DS | Up to 2593 Hz (259.3 / 741 / 1482 / 2593 Hz at ~0.7 / 2 / 4 / 7 GHz, 200 km/h) | Mobile macro/small cells, cell range ≤ 1.155 km. NR reference: A3, C2 and B4 (15/30 kHz SCS), format 0 (restricted set type B) and format 3 (restricted set type A) with ≥ 1 ms contiguous UL. |\n| FL-2 | Around 4, 7 GHz (TDD, SBFD) | 7.7 µs + DS | 3704 Hz (~4 GHz), 6482 Hz (~7 GHz), HST 500 km/h | High-speed train, cell range ≤ 1.155 km. NR reference: format 3 , C2 and B4 with 30 kHz SCS, and B4 with 15 kHz SCS with ≥ 1 ms contiguous UL. |\n| FL-3 | Around 0.7 GHz (FDD) | 22.2 µs + DS | 155.6 Hz (120 km/h) | Cell range 3.333 km. NR reference: format A3, C2 and B4 (15 kHz SCS), format 0, format 3, and format 2 (for extended coverage). |\n| FL-4 | Around 4, 7 GHz (TDD, SBFD) | 66.7 µs + DS | 38.9 Hz (~7 GHz, 3 km/h) | FWA, cell range 10 km. NR reference: format 0, 3 (requires ≥ 1 ms contiguous UL). |\n| FL-5 | Around 0.7 GHz (FDD) | 666.7 µs + DS | 207.4 Hz (160 km/h) | Single cell, cell range 100 km. NR reference: format 1. |\n| FL-5A | Around 7 GHz (TDD, SBFD) | 7.7 µs + DS and 66.7µs + DS | FFD | Coverage enhancement at 7GHz, cell range ≤ [1.155] km and 10km, respectively. NR reference: Format 0/C2/B4 |\n| FL-6 | Around 30 GHz (TDD, SBFD) | [11.5] µs + DS | [FFS]; HST: 27778 Hz (500 km/h) | Cell range FFS (note: in the scenario characteristic table, ISD 1732 m). NR reference: format A3, C0, C2 and B4 (60/120 kHz SCS) possibly with repetition |\n| FL-7 | Around 4, 7 GHz (FDD or SBFD UL subband) | [Residual timing error after UE pre-compensation] FFS: 666.7 µs + DS (without UE pre-compensation) | [Residual frequency error after UE pre-compensation] FFS: 11111 Hz (~4 GHz), 19444 Hz (~7 GHz), 1500 km/h (without UE pre-compensation) | ATG, cell range 100 km. No separate design target if the residual errors are within those of FL-1 to FL-6, i.e., common TN/NTN formats. |\n| FL-8 | Around 2, 30 GHz | [Residual timing error after UE pre-compensation] | [Residual frequency error after UE pre-compensation] | NTN with GNSS-based pre-compensation. No separate design target if the residual errors are within those of FL-1 to FL-6, i.e., common TN/NTN formats. |\n| FL-9 | Around 2 GHz FFS: 30 GHz | Differential RTT of the scenario, e.g., [510.6] µs (LEO-600, ~2 GHz) FFS: [286.2] µs (~30 GHz) | Differential Doppler shift of the same scenario, e.g., [8.76] kHz (~2 GHz) FFS: [73.44] kHz (~30 GHz) | NTN GNSS-degraded/less/free (LEO). Delay and Doppler shift taken from the same scenario and elevation angle. GEO is FFS. |\n| FL-10 | Around 2 FFS: 30 GHz | Differential RTT of the scenario, e.g., [12.2] µs (LEO-600, ~2 GHz), FFS: [3.8] µs (~30 GHz) | Differential Doppler shift of the same scenario, e.g., [15.16] kHz (~2 GHz), FFS: [127.08] kHz (~30 GHz) | NTN GNSS-degraded/less/free (LEO). Delay and Doppler shift taken from the same scenario and elevation angle. GEO is FFS. |\n- Delay spread (DS): [3.13·2^(−µ) µs for cell radius < 500 m and 4.69·2^(−µ) µs otherwise], where µ is the SCS order (µ = 0 for 15 kHz); the 15 kHz value is used for long-sequence formats.\n- Doppler shift of every TN design target is the two-way value per NOTE 8 of the scenario characteristic table.\n- Values in brackets are to be confirmed; further refinement is limited to the bracketed values.\n- NOTE: further updates and refinements including removal or addition of new rows can be discussed further in RAN1 #128.",
+      "text": "Use the following scenario-based preamble design targets for the 6GR PRACH preamble format study:\n| Identifier (company + Index) | Carrier Frequency | Delay (Max RTT + Delay Spread) | Doppler Shift | Notes (any information to additional share, e.g., sequence length, occupied BW, SCS, number of sequence repetition, preamble duration, frame structure restrictions, information on derivation, motivation, etc) |\n| FL-1 | Around 0.7, 2, 4, 7 GHz (FDD, TDD, SBFD) | 7.7 µs + DS | Up to 2593 Hz (259.3 / 741 / 1482 / 2593 Hz at ~0.7 / 2 / 4 / 7 GHz, 200 km/h) | Mobile macro/small cells, cell range ≤ 1.155 km. NR reference: A3, C2 and B4, format 0 (restricted set type B) and format 3 (restricted set type A) with ≥ 1 ms contiguous UL. |\n| FL-2 | Around 4, 7 GHz (TDD, SBFD) | 7.7 µs + DS | 3704 Hz (~4 GHz), 6482 Hz (~7 GHz), HST 500 km/h | High-speed train, cell range ≤ 1.155 km. NR reference: format 3, C2 and B4 |\n| FL-3 | Around 0.7 GHz (FDD) | 22.2 µs + DS | 155.6 Hz (120 km/h) | Cell range 3.333 km. NR reference: format A3, C2 and B4, format 0, format 3, and format 2 (for extended coverage). |\n| FL-4 | Around 4, 7 GHz (TDD, SBFD) | 66.7 µs + DS | 38.9 Hz (~7 GHz, 3 km/h) | FWA, cell range 10 km. NR reference: format 0, 3 (requires ≥ 1 ms contiguous UL), C2. |\n| FL-5 | Around 0.7 GHz (FDD) | 666.7 µs + DS | 207.4 Hz (160 km/h) | Single cell, cell range 100 km. NR reference: format 1 and 2. |\n| FL-5A | Around 7 GHz (TDD, SBFD) | [7.7] µs + DS | FFS | Coverage enhancement at 7 GHz, cell range ≤ [1.155] km. NR reference: Format 0/C2/B4 |\n| FL-6 | Around 30 GHz (TDD, SBFD) | [2.22] µs + DS | FFS; HST: 27778 Hz (500 km/h) | Cell range FFS (note: in the scenario characteristic table, ISD 500 m). NR reference: format A3, C0, C2 and B4 possibly with repetition |\n| FL-7 | Around 4, 7 GHz (FDD or SBFD UL subband) | [Residual timing error after UE pre-compensation] FFS: 666.7 µs + DS (without UE pre-compensation) | [Residual frequency error after UE pre-compensation] FFS: 11111 Hz (~4 GHz), 19444 Hz (~7 GHz), 1500 km/h (without UE pre-compensation) | ATG, cell range 100 km. No separate design target if the residual errors are within those of FL-1 to FL-6, i.e., common TN/NTN formats. |\n| FL-8 | Around 2, 30 GHz | [Residual timing error after UE pre-compensation] | [Residual frequency error after UE pre-compensation] | NTN with GNSS-based pre-compensation. No separate design target if the residual errors are within those of FL-1 to FL-6, i.e., common TN/NTN formats. |\n| FL-9 | Around 2 GHz FFS: 30 GHz | Differential RTT of the scenario, e.g., [510.6] µs (LEO-600, ~2 GHz) FFS: [286.2] µs (~30 GHz) | Differential Doppler shift of the same scenario, e.g., [8.76] kHz (~2 GHz) FFS: [73.44] kHz (~30 GHz) | NTN GNSS-degraded/less/free (LEO). Delay and Doppler shift taken from the same scenario and elevation angle. GEO is FFS. |\n| FL-10 | Around 2 GHz FFS: 30 GHz | Differential RTT of the scenario, e.g., [12.2] µs (LEO-600, ~2 GHz), FFS: [3.8] µs (~30 GHz) | Differential Doppler shift of the same scenario, e.g., [15.16] kHz (~2 GHz), FFS: [127.08] kHz (~30 GHz) | NTN GNSS-degraded/less/free (LEO). Delay and Doppler shift taken from the same scenario and elevation angle. GEO is FFS. |\n- Delay spread (DS): [3.13·2^(−µ) µs for cell radius < 500 m and 4.69·2^(−µ) µs otherwise], where µ is the SCS order (µ = 0 for 15 kHz); the 15 kHz value is used for long-sequence formats.\n- Doppler shift of every TN design target is the two-way value per NOTE 8 of the scenario characteristic table.\n- Values in brackets are to be confirmed; further refinement is limited to the bracketed values.\n- NOTE 1: PUSCH SCS in corresponding band is used as SCS for PRACH short preamble formats\n- NOTE 2: further updates and refinements including removal or addition of new rows can be discussed further in RAN1 #128.",
       "ffs": [],
       "source": {
-        "doc": "Chair notes RAN1#127_v09",
+        "doc": "Chair notes RAN1#127_v12",
         "kind": "chairman_note",
-        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v09.docx",
+        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v12.docx",
+        "discussion": "127-R20-6GR-PRACH"
+      }
+    },
+    {
+      "id": "RAN1#127:10.5.1.2:005",
+      "meeting": "RAN1#127",
+      "agenda_item": "10.5.1.2",
+      "agenda_title": "PRACH and RACH procedure",
+      "agenda_path": [
+        {
+          "number": "10",
+          "title": "Rel-20 Study of 6GR"
+        },
+        {
+          "number": "10.5",
+          "title": "Multi-antenna system"
+        },
+        {
+          "number": "10.5.1",
+          "title": "Initial access and mobility"
+        },
+        {
+          "number": "10.5.1.2",
+          "title": "PRACH and RACH procedure"
+        }
+      ],
+      "type": "Agreement",
+      "text": "Proposal 3-1D of R1-2610876 for updating observation made in RAN1 #126bis is adopted.",
+      "ffs": [],
+      "source": {
+        "doc": "Chair notes RAN1#127_v12",
+        "kind": "chairman_note",
+        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v12.docx",
+        "discussion": "127-R20-6GR-PRACH"
+      }
+    },
+    {
+      "id": "RAN1#127:10.5.1.2:006",
+      "meeting": "RAN1#127",
+      "agenda_item": "10.5.1.2",
+      "agenda_title": "PRACH and RACH procedure",
+      "agenda_path": [
+        {
+          "number": "10",
+          "title": "Rel-20 Study of 6GR"
+        },
+        {
+          "number": "10.5",
+          "title": "Multi-antenna system"
+        },
+        {
+          "number": "10.5.1",
+          "title": "Initial access and mobility"
+        },
+        {
+          "number": "10.5.1.2",
+          "title": "PRACH and RACH procedure"
+        }
+      ],
+      "type": "Agreement",
+      "text": "Proposal #3-2F of R1-2610876 is adopted as observation.",
+      "ffs": [],
+      "source": {
+        "doc": "Chair notes RAN1#127_v12",
+        "kind": "chairman_note",
+        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v12.docx",
+        "discussion": "127-R20-6GR-PRACH"
+      }
+    },
+    {
+      "id": "RAN1#127:10.5.1.2:007",
+      "meeting": "RAN1#127",
+      "agenda_item": "10.5.1.2",
+      "agenda_title": "PRACH and RACH procedure",
+      "agenda_path": [
+        {
+          "number": "10",
+          "title": "Rel-20 Study of 6GR"
+        },
+        {
+          "number": "10.5",
+          "title": "Multi-antenna system"
+        },
+        {
+          "number": "10.5.1",
+          "title": "Initial access and mobility"
+        },
+        {
+          "number": "10.5.1.2",
+          "title": "PRACH and RACH procedure"
+        }
+      ],
+      "type": "Agreement",
+      "text": "For evaluation of identification of deployment conditions that NR ZC PRACH sequence design cannot meet requirements,\n- Candidates should be evaluated with same scenarios and conditions, considering aspects of evaluation of preamble sequence generation/construction methods agreed in RAN1 #124-bis. Transmitter and Receiver complexity of each candidate for corresponding scenario of interest to be reported.",
+      "ffs": [],
+      "source": {
+        "doc": "Chair notes RAN1#127_v12",
+        "kind": "chairman_note",
+        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v12.docx",
         "discussion": "127-R20-6GR-PRACH"
       }
     },
@@ -91461,9 +91753,9 @@
         "FFS: the maximum for FR2-1"
       ],
       "source": {
-        "doc": "Chair notes RAN1#127_v09",
+        "doc": "Chair notes RAN1#127_v12",
         "kind": "chairman_note",
-        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v09.docx",
+        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v12.docx",
         "discussion": "127-R20-6GR-Bandwidth operation"
       }
     },
@@ -91494,9 +91786,9 @@
       "text": "CRB0 indication for the DL carrier on which the SSB for initial cell selection is detected, for single-carrier operation\n- The UE determines CRB0 from a non-negative RB-level offset counted downward from the lowest-numbered CRB overlapping with SSB.\n- The offset is in RBs of the CRB-grid SCS; its range and granularity are work-item details.",
       "ffs": [],
       "source": {
-        "doc": "Chair notes RAN1#127_v09",
+        "doc": "Chair notes RAN1#127_v12",
         "kind": "chairman_note",
-        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v09.docx",
+        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v12.docx",
         "discussion": "127-R20-6GR-Bandwidth operation"
       }
     },
@@ -91524,15 +91816,48 @@
         }
       ],
       "type": "Agreement",
-      "text": "For single-carrier operation during initial access, for the study of Option 2, the maximum bandwidth of schedulable frequency resources for SIB1-PDSCH is down-selected between the following options in FR1 (including around 7GHz)\n- Option A: the maximum is 96 RBs for 15 kHz SCS and 48 RBs for 30 kHz SCS\n- Option B: the maximum is 96 RBs for both SCSs\n- Option C: the maximum is larger than 96 RBs for 15 kHz SCS and larger than 48 RBs for 30 kHz SCS.\nFFS: the maximum is different for the case SSB is outside schedulable frequency resources of SIB1-PDSCH\nFFS: the maximum for FR2-1\nNote: Other candidate values smaller than the above maximum can be discussed in work item.",
+      "text": "For single-carrier operation during initial access, for the study of Option 2, the maximum bandwidth of schedulable frequency resources for SIB1-PDSCH is down-selected between the following options in FR1 (including around 7GHz)\n- Option A: the maximum is 96 RBs for 15 kHz SCS and 48 RBs for 30 kHz SCS\n- Option B: the maximum is 96 RBs for both SCSs\n- Option C: the maximum is larger than 96 RBs for 15 kHz SCS\n- Option D: the maximum is larger than 96 RBs for 30 kHz SCS\n- Option E: the maximum is larger than 48 RBs for 15 kHz SCS\n- Option F: the maximum is larger than 48 RBs for 30 kHz SCS\n- Option G: the maximum is larger than 96 RBs for 15 kHz SCS and larger than 48 RBs for 30 kHz SCS.\nFFS: the maximum is different for the case SSB is outside schedulable frequency resources of SIB1-PDSCH\nFFS: the maximum for FR2-1\nNote: Other candidate values smaller than the above maximum can be discussed in work item.",
       "ffs": [
         "FFS: the maximum is different for the case SSB is outside schedulable frequency resources of SIB1-PDSCH",
         "FFS: the maximum for FR2-1"
       ],
       "source": {
-        "doc": "Chair notes RAN1#127_v09",
+        "doc": "Chair notes RAN1#127_v12",
         "kind": "chairman_note",
-        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v09.docx",
+        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v12.docx",
+        "discussion": "127-R20-6GR-Bandwidth operation"
+      }
+    },
+    {
+      "id": "RAN1#127:10.5.1.3:004",
+      "meeting": "RAN1#127",
+      "agenda_item": "10.5.1.3",
+      "agenda_title": "Bandwidth operation",
+      "agenda_path": [
+        {
+          "number": "10",
+          "title": "Rel-20 Study of 6GR"
+        },
+        {
+          "number": "10.5",
+          "title": "Multi-antenna system"
+        },
+        {
+          "number": "10.5.1",
+          "title": "Initial access and mobility"
+        },
+        {
+          "number": "10.5.1.3",
+          "title": "Bandwidth operation"
+        }
+      ],
+      "type": "Agreement",
+      "text": "For the single carrier operation and for paging PDCCH/PDSCH,\n- The frequency location and bandwidth of the CORESET for paging-PDCCH monitoring are within the schedulable frequency resources for one paging PDSCH.",
+      "ffs": [],
+      "source": {
+        "doc": "Chair notes RAN1#127_v12",
+        "kind": "chairman_note",
+        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v12.docx",
         "discussion": "127-R20-6GR-Bandwidth operation"
       }
     },
@@ -91563,9 +91888,9 @@
       "text": "- For NW-triggered CSI reporting, support Aperiodic CSI reporting on PUSCH for both wideband and subband CSI based on NW triggering\n- For NW-configured CSI reporting, support Periodic CSI reporting assuming the capacity of the container is not larger than X bits",
       "ffs": [],
       "source": {
-        "doc": "Chair notes RAN1#127_v09",
+        "doc": "Chair notes RAN1#127_v12",
         "kind": "chairman_note",
-        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v09.docx",
+        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v12.docx",
         "discussion": "127-R20-6GR-Aspects of DL based CSI acquisition"
       }
     },
@@ -91596,9 +91921,9 @@
       "text": "For 6GR, the maximum number of CSI-RS ports is 256",
       "ffs": [],
       "source": {
-        "doc": "Chair notes RAN1#127_v09",
+        "doc": "Chair notes RAN1#127_v12",
         "kind": "chairman_note",
-        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v09.docx",
+        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v12.docx",
         "discussion": "127-R20-6GR-Aspects of DL based CSI acquisition"
       }
     },
@@ -91629,9 +91954,9 @@
       "text": "For NW side prediction at spatial and/or frequency domain, deprioritize prediction input Option 1-1: UE reported channel matrix derived from reduced dimension CSI-RS measurement",
       "ffs": [],
       "source": {
-        "doc": "Chair notes RAN1#127_v09",
+        "doc": "Chair notes RAN1#127_v12",
         "kind": "chairman_note",
-        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v09.docx",
+        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v12.docx",
         "discussion": "127-R20-6GR-Aspects of DL based CSI acquisition"
       }
     },
@@ -91662,9 +91987,9 @@
       "text": "For the 6GR codebook design for CSI report, for sTRP, targeting different use cases, support W1W2 structure based and W1W2Wf structure based schemes\n- UE reports recommended PMI may include:\n  - Indicators for the selected SD basis vector(s) W1 and, if applicable, the selected FD basis vectors Wf\n    - Note: this does not imply that the W1W2 structure based and W1W2Wf  structure based schemes share the same SD basis design\n  - Indicators, W2, for selection of inter-polarization co-phasing coefficients for W1W2 structure based scheme or linear combination coefficients of the selected SD basis vector(s) and, if applicable, FD basis vectors for W1W2Wf structure based scheme\n    - Note: whether W2 include inter-polarization amplitude for W1W2 structure scheme to be decided in the normative phase\n- Note: This does not imply that all of the above schemes are mandatory UE features and there will be separate UE feature discussion during the normative phase.\n- Note: Basis design will be discussed separately.",
       "ffs": [],
       "source": {
-        "doc": "Chair notes RAN1#127_v09",
+        "doc": "Chair notes RAN1#127_v12",
         "kind": "chairman_note",
-        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v09.docx",
+        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v12.docx",
         "discussion": "127-R20-6GR-Aspects of DL based CSI acquisition"
       }
     },
@@ -91695,9 +92020,9 @@
       "text": "For the 6GR codebook design for CSI report, for CJT, RAN 1 recommends to support at least one of the W1W2 structure based and W1W2Wf structure based scheme with TRP-specific SD basis selection conditioned on the support of CJT PDSCH-DMRS QCL in normative phase\n- UE reports recommended PMI may include:\n  - Indicators, W1 for the selected SD basis vector(s) and, if applicable, inter-TRP co-phasing for the   W1W2 structure based scheme (if supported)\n    - Note: this does not imply that the W1W2 structure based and W1W2Wf  structure based schemes share the same SD basis design\n  - Indicators, W2, for selection of inter-polarization co-phasing coefficients of the selected SD basis vectors for  W1W2 structure based (if supported) or linear combination coefficients of the selected SD basis vectors and, FD basis vectors for W1W2Wf structure based (if supported)\n    - Note: whether W2 include inter-polarization amplitude for W1W2 structure based scheme to be decided in the normative phase\n  - Whether/how to support dynamic TRP selection mechanism can be decided in normative phase\n- Note: Basis design will be discussed separately.",
       "ffs": [],
       "source": {
-        "doc": "Chair notes RAN1#127_v09",
+        "doc": "Chair notes RAN1#127_v12",
         "kind": "chairman_note",
-        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v09.docx",
+        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v12.docx",
         "discussion": "127-R20-6GR-Aspects of DL based CSI acquisition"
       }
     },
@@ -91728,9 +92053,9 @@
       "text": "- For UE-assisted report for the 6GR DL based CSI, to facilitate CJT deployments, RAN 1 recommends to support CJT calibration (CJTC) reports of delay offset, frequency offset, and phase offset conditioned on the support of CJT PDSCH-DMRS QCL in normative phase.\n- Other detailed design aspects are to be finalized based on the existing agreements",
       "ffs": [],
       "source": {
-        "doc": "Chair notes RAN1#127_v09",
+        "doc": "Chair notes RAN1#127_v12",
         "kind": "chairman_note",
-        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v09.docx",
+        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v12.docx",
         "discussion": "127-R20-6GR-Aspects of DL based CSI acquisition"
       }
     },
@@ -91761,9 +92086,9 @@
       "text": "For study on PAPR reduction for JSCM-based CSI compression, deprioritize Option 2.\nNote: discrete constellation with constant amplitude is treated as Option 1.",
       "ffs": [],
       "source": {
-        "doc": "Chair notes RAN1#127_v09",
+        "doc": "Chair notes RAN1#127_v12",
         "kind": "chairman_note",
-        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v09.docx",
+        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v12.docx",
         "discussion": "127-R20-6GR-Aspects of DL based CSI acquisition"
       }
     },
@@ -91794,9 +92119,145 @@
       "text": "For UE-assisted report for the 6GR DL based CSI, RAN 1 recommends to support Channel Property Information (CPI) reports at least for SD:\nSupport single option confined within Option 1 (from RAN #126bis agreement) during normative phase.\n- Note: the averaging over time domain for CPI is up to UE implementation.\n- Whether to support CPI for FD can be decided in normative phase with the same scheme as for SD CPI.\nOther detailed design aspects are to be finalized based on the existing agreements\nNote: send LS to RAN 4 to include the above agreement.",
       "ffs": [],
       "source": {
-        "doc": "Chair notes RAN1#127_v09",
+        "doc": "Chair notes RAN1#127_v12",
         "kind": "chairman_note",
-        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v09.docx",
+        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v12.docx",
+        "discussion": "127-R20-6GR-Aspects of DL based CSI acquisition"
+      }
+    },
+    {
+      "id": "RAN1#127:10.5.3.1:009",
+      "meeting": "RAN1#127",
+      "agenda_item": "10.5.3.1",
+      "agenda_title": "Aspects of downlink-based CSI acquisition",
+      "agenda_path": [
+        {
+          "number": "10",
+          "title": "Rel-20 Study of 6GR"
+        },
+        {
+          "number": "10.5",
+          "title": "Multi-antenna system"
+        },
+        {
+          "number": "10.5.3",
+          "title": "CSI acquisition and report"
+        },
+        {
+          "number": "10.5.3.1",
+          "title": "Aspects of downlink-based CSI acquisition"
+        }
+      ],
+      "type": "Agreement",
+      "text": "6GR CSI-RS supports the following numbers of ports: 1, 2, 4, 8, 12, 16, 24, 32, 48, 64, 128, 256\n- Note: UE capability is a separate discussion in WI",
+      "ffs": [],
+      "source": {
+        "doc": "Chair notes RAN1#127_v12",
+        "kind": "chairman_note",
+        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v12.docx",
+        "discussion": "127-R20-6GR-Aspects of DL based CSI acquisition"
+      }
+    },
+    {
+      "id": "RAN1#127:10.5.3.1:010",
+      "meeting": "RAN1#127",
+      "agenda_item": "10.5.3.1",
+      "agenda_title": "Aspects of downlink-based CSI acquisition",
+      "agenda_path": [
+        {
+          "number": "10",
+          "title": "Rel-20 Study of 6GR"
+        },
+        {
+          "number": "10.5",
+          "title": "Multi-antenna system"
+        },
+        {
+          "number": "10.5.3",
+          "title": "CSI acquisition and report"
+        },
+        {
+          "number": "10.5.3.1",
+          "title": "Aspects of downlink-based CSI acquisition"
+        }
+      ],
+      "type": "Agreement",
+      "text": "For 6GR CSI-RS CDM size and type, prioritize the following candidates for further down-selection per port number basis\n- Candidate 2-1-1: cdm1\n- Candidate 2-1-2: cdm2-FD2\n- Candidate 2-1-3: cdm4-FD2-TD2\n- Candidate 2-1-4: cdm8-FD2-TD4\n- Candidate 2-2-1: cdm16-FD4-TD4\n- Note: cell edge performance should be considered and compared with full-power CSI-RS transmission",
+      "ffs": [],
+      "source": {
+        "doc": "Chair notes RAN1#127_v12",
+        "kind": "chairman_note",
+        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v12.docx",
+        "discussion": "127-R20-6GR-Aspects of DL based CSI acquisition"
+      }
+    },
+    {
+      "id": "RAN1#127:10.5.3.1:011",
+      "meeting": "RAN1#127",
+      "agenda_item": "10.5.3.1",
+      "agenda_title": "Aspects of downlink-based CSI acquisition",
+      "agenda_path": [
+        {
+          "number": "10",
+          "title": "Rel-20 Study of 6GR"
+        },
+        {
+          "number": "10.5",
+          "title": "Multi-antenna system"
+        },
+        {
+          "number": "10.5.3",
+          "title": "CSI acquisition and report"
+        },
+        {
+          "number": "10.5.3.1",
+          "title": "Aspects of downlink-based CSI acquisition"
+        }
+      ],
+      "type": "Agreement",
+      "text": "For 6GR CSI-RS, on the study of options to address the potential inter-cell interference issue caused by NR CSI-RS sequence mapping, and the potential PAPR issue caused by precoded CSI-RS and NR CSI-RS sequence mapping, prioritize the following for further down-selection\n- Option 2: Map the PN sequence to the global subcarrier indices in the whole bandwidth sequentially\n  - FFS whether it needs to be combined with inter-cell option 1 and/or 8\n- Option 4: Multiply the PN sequence with an additional port-specific scrambling sequence\n  - FFS whether it needs to be combined with inter-cell option 1\n- Option 6: Port-specific sequence initialization\n  - FFS whether it needs to be combined with inter-cell option 1\n- A single solution from the above 3 is selected for both inter-cell issue and PAPR issue",
+      "ffs": [
+        "FFS whether it needs to be combined with inter-cell option 1 and/or 8",
+        "FFS whether it needs to be combined with inter-cell option 1",
+        "FFS whether it needs to be combined with inter-cell option 1"
+      ],
+      "source": {
+        "doc": "Chair notes RAN1#127_v12",
+        "kind": "chairman_note",
+        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v12.docx",
+        "discussion": "127-R20-6GR-Aspects of DL based CSI acquisition"
+      }
+    },
+    {
+      "id": "RAN1#127:10.5.3.1:012",
+      "meeting": "RAN1#127",
+      "agenda_item": "10.5.3.1",
+      "agenda_title": "Aspects of downlink-based CSI acquisition",
+      "agenda_path": [
+        {
+          "number": "10",
+          "title": "Rel-20 Study of 6GR"
+        },
+        {
+          "number": "10.5",
+          "title": "Multi-antenna system"
+        },
+        {
+          "number": "10.5.3",
+          "title": "CSI acquisition and report"
+        },
+        {
+          "number": "10.5.3.1",
+          "title": "Aspects of downlink-based CSI acquisition"
+        }
+      ],
+      "type": "Agreement",
+      "text": "On the locations of M2 RBs in each RB set for 6GR CSI-RS, support\n- The M2 RBs are consecutive RBs in each RB set\n- Note: whether the CSI-RS pattern occupies a same or different set of REs in each of the M1 slots and M2 RBs is a separate discussion",
+      "ffs": [],
+      "source": {
+        "doc": "Chair notes RAN1#127_v12",
+        "kind": "chairman_note",
+        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v12.docx",
         "discussion": "127-R20-6GR-Aspects of DL based CSI acquisition"
       }
     },
@@ -91827,9 +92288,9 @@
       "text": "Support at least the following combinations of comb value and cyclic shift for comb values less than or equal to 8 (assuming the minimum bandwidth = 4 PRBs for SRS in 6GR)\n- The maximum number of cyclic shifts up to 24 for comb-2\n- The maximum number of cyclic shifts up to 12 for comb-4\n- The maximum number of cyclic shifts up to 6 for comb-8",
       "ffs": [],
       "source": {
-        "doc": "Chair notes RAN1#127_v09",
+        "doc": "Chair notes RAN1#127_v12",
         "kind": "chairman_note",
-        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v09.docx",
+        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v12.docx",
         "discussion": "127-R20-6GR-Aspects of UL based CSI acquisition"
       }
     },
@@ -91860,9 +92321,9 @@
       "text": "Support SRS repetition in 6GR.",
       "ffs": [],
       "source": {
-        "doc": "Chair notes RAN1#127_v09",
+        "doc": "Chair notes RAN1#127_v12",
         "kind": "chairman_note",
-        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v09.docx",
+        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v12.docx",
         "discussion": "127-R20-6GR-Aspects of UL based CSI acquisition"
       }
     },
@@ -91895,9 +92356,9 @@
         "FFS: whether the different parts are non-overlapping, and whether they span the entire UL CBW"
       ],
       "source": {
-        "doc": "Chair notes RAN1#127_v09",
+        "doc": "Chair notes RAN1#127_v12",
         "kind": "chairman_note",
-        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v09.docx",
+        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v12.docx",
         "discussion": "127-R20-6GR-Aspects of UL based CSI acquisition"
       }
     },
@@ -91932,9 +92393,9 @@
         "FFS: other usages that can be shared"
       ],
       "source": {
-        "doc": "Chair notes RAN1#127_v09",
+        "doc": "Chair notes RAN1#127_v12",
         "kind": "chairman_note",
-        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v09.docx",
+        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v12.docx",
         "discussion": "127-R20-6GR-Aspects of UL based CSI acquisition"
       }
     },
@@ -91967,47 +92428,14 @@
         "FFS: TD-OCC hopping (if TD-OCC is supported)"
       ],
       "source": {
-        "doc": "Chair notes RAN1#127_v09",
+        "doc": "Chair notes RAN1#127_v12",
         "kind": "chairman_note",
-        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v09.docx",
+        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v12.docx",
         "discussion": "127-R20-6GR-Aspects of UL based CSI acquisition"
       }
     },
     {
       "id": "RAN1#127:10.5.3.2:006",
-      "meeting": "RAN1#127",
-      "agenda_item": "10.5.3.2",
-      "agenda_title": "Aspects of uplink-based CSI acquisition",
-      "agenda_path": [
-        {
-          "number": "10",
-          "title": "Rel-20 Study of 6GR"
-        },
-        {
-          "number": "10.5",
-          "title": "Multi-antenna system"
-        },
-        {
-          "number": "10.5.3",
-          "title": "CSI acquisition and report"
-        },
-        {
-          "number": "10.5.3.2",
-          "title": "Aspects of uplink-based CSI acquisition"
-        }
-      ],
-      "type": "Agreement",
-      "text": "For the following 2-level SRS frequency hopping patterns for 6GR:\n- Pattern 1-X: Down-select one from the following patterns:\n- Pattern 1-2 (Option 1 + Option 2): Hopping over the whole BW with one or multiple frequency hops following nested tree-like frequency hopping pattern as in NR, and the SRS pattern within each frequency hop follows the partial frequency sounding pattern with(opt 2.1)/without(opt 2.2) intra-repetition hopping\n- Pattern 1-3 (Option 1 + Option3): Hopping over the whole BW with one or multiple frequency hops following nested tree-like frequency hopping pattern as in NR, and the SRS pattern within each frequency hop follows the sequential hopping pattern\nNote 1: The first level of 2-level hopping pattern(s) can serves as the corresponding single-level SRS frequency hopping pattern",
-      "ffs": [],
-      "source": {
-        "doc": "Chair notes RAN1#127_v09",
-        "kind": "chairman_note",
-        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v09.docx",
-        "discussion": "127-R20-6GR-Aspects of UL based CSI acquisition"
-      }
-    },
-    {
-      "id": "RAN1#127:10.5.3.2:007",
       "meeting": "RAN1#127",
       "agenda_item": "10.5.3.2",
       "agenda_title": "Aspects of uplink-based CSI acquisition",
@@ -92037,9 +92465,108 @@
         "FFS: Dynamic adaptation of other parameters"
       ],
       "source": {
-        "doc": "Chair notes RAN1#127_v09",
+        "doc": "Chair notes RAN1#127_v12",
         "kind": "chairman_note",
-        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v09.docx",
+        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v12.docx",
+        "discussion": "127-R20-6GR-Aspects of UL based CSI acquisition"
+      }
+    },
+    {
+      "id": "RAN1#127:10.5.3.2:007",
+      "meeting": "RAN1#127",
+      "agenda_item": "10.5.3.2",
+      "agenda_title": "Aspects of uplink-based CSI acquisition",
+      "agenda_path": [
+        {
+          "number": "10",
+          "title": "Rel-20 Study of 6GR"
+        },
+        {
+          "number": "10.5",
+          "title": "Multi-antenna system"
+        },
+        {
+          "number": "10.5.3",
+          "title": "CSI acquisition and report"
+        },
+        {
+          "number": "10.5.3.2",
+          "title": "Aspects of uplink-based CSI acquisition"
+        }
+      ],
+      "type": "Agreement",
+      "text": "For 2-level SRS frequency hopping patterns for 6GR, support the following pattern within frequency hopping period (Option 1 + Option 2):\n- First level: Hopping over the whole BW with one or multiple frequency hops following nested tree-like frequency hopping pattern as in NR, and\n- Second level: SRS within each frequency hop follows the partial frequency sounding.\n  - Support fixed hopping patterns in the second level.\n  - Details FFS. At least consider intra-repetition hopping specified in R20.\nNote: The first level of 2-level hopping pattern can serve as the single-level SRS frequency hopping pattern",
+      "ffs": [],
+      "source": {
+        "doc": "Chair notes RAN1#127_v12",
+        "kind": "chairman_note",
+        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v12.docx",
+        "discussion": "127-R20-6GR-Aspects of UL based CSI acquisition"
+      }
+    },
+    {
+      "id": "RAN1#127:10.5.3.2:008",
+      "meeting": "RAN1#127",
+      "agenda_item": "10.5.3.2",
+      "agenda_title": "Aspects of uplink-based CSI acquisition",
+      "agenda_path": [
+        {
+          "number": "10",
+          "title": "Rel-20 Study of 6GR"
+        },
+        {
+          "number": "10.5",
+          "title": "Multi-antenna system"
+        },
+        {
+          "number": "10.5.3",
+          "title": "CSI acquisition and report"
+        },
+        {
+          "number": "10.5.3.2",
+          "title": "Aspects of uplink-based CSI acquisition"
+        }
+      ],
+      "type": "Agreement",
+      "text": "For 6GR SRS, support start RB hopping across different frequency hopping periods.",
+      "ffs": [],
+      "source": {
+        "doc": "Chair notes RAN1#127_v12",
+        "kind": "chairman_note",
+        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v12.docx",
+        "discussion": "127-R20-6GR-Aspects of UL based CSI acquisition"
+      }
+    },
+    {
+      "id": "RAN1#127:10.5.3.2:009",
+      "meeting": "RAN1#127",
+      "agenda_item": "10.5.3.2",
+      "agenda_title": "Aspects of uplink-based CSI acquisition",
+      "agenda_path": [
+        {
+          "number": "10",
+          "title": "Rel-20 Study of 6GR"
+        },
+        {
+          "number": "10.5",
+          "title": "Multi-antenna system"
+        },
+        {
+          "number": "10.5.3",
+          "title": "CSI acquisition and report"
+        },
+        {
+          "number": "10.5.3.2",
+          "title": "Aspects of uplink-based CSI acquisition"
+        }
+      ],
+      "type": "Agreement",
+      "text": "Send an LS to RAN4 to clarify the UE RF retuning/switching timeline and requirement when switching SRS between different frequency chunks under DL/UL CBW asymmetry, and inform RAN4 the agreements about SRS.\nEmail discussion on evaluation and results collection for UL-based CSI acquisition (Dec.1~Dec.11)\n- Templates\n- Results collection",
+      "ffs": [],
+      "source": {
+        "doc": "Chair notes RAN1#127_v12",
+        "kind": "chairman_note",
+        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v12.docx",
         "discussion": "127-R20-6GR-Aspects of UL based CSI acquisition"
       }
     },
@@ -92070,9 +92597,9 @@
       "text": "At least for FR2, study UE UL beam sweeping for 6GR targeting at least Asymmetric DL sTRP and UL mTRP.\nNote: Which multi-TRP transmission scheme to be supported will be discussed under other agenda.",
       "ffs": [],
       "source": {
-        "doc": "Chair notes RAN1#127_v09",
+        "doc": "Chair notes RAN1#127_v12",
         "kind": "chairman_note",
-        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v09.docx",
+        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v12.docx",
         "discussion": "127-R20-6GR-Beam management"
       }
     },
@@ -92103,9 +92630,42 @@
       "text": "- Study the procedure of NW initiated UL beam sweeping considering, at least for FR2\n  - At least consider inter-symbol NW/UE-side beam sweeping including multiple UL RS(s) for UL Tx beam sweeping/repetition.",
       "ffs": [],
       "source": {
-        "doc": "Chair notes RAN1#127_v09",
+        "doc": "Chair notes RAN1#127_v12",
         "kind": "chairman_note",
-        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v09.docx",
+        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v12.docx",
+        "discussion": "127-R20-6GR-Beam management"
+      }
+    },
+    {
+      "id": "RAN1#127:10.5.3.4:003",
+      "meeting": "RAN1#127",
+      "agenda_item": "10.5.3.4",
+      "agenda_title": "Beam management for downlink and uplink",
+      "agenda_path": [
+        {
+          "number": "10",
+          "title": "Rel-20 Study of 6GR"
+        },
+        {
+          "number": "10.5",
+          "title": "Multi-antenna system"
+        },
+        {
+          "number": "10.5.3",
+          "title": "CSI acquisition and report"
+        },
+        {
+          "number": "10.5.3.4",
+          "title": "Beam management for downlink and uplink"
+        }
+      ],
+      "type": "Agreement",
+      "text": "For RAN4 LS on 6G FR2 UE digital beamforming architecture [R1-2609011/R4-2621663]:\n- RAN1 notes that 6GR Layer 1 procedures are not specific to a particular UE RF beamforming architecture. At this stage, RAN1 has not identified L1 procedure or specification changes specific to UE digital beamforming architecture for FR2.\n  - RAN1 does not specify the UE beamforming architecture for FR2; it is up to UE implementation.",
+      "ffs": [],
+      "source": {
+        "doc": "Chair notes RAN1#127_v12",
+        "kind": "chairman_note",
+        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v12.docx",
         "discussion": "127-R20-6GR-Beam management"
       }
     },
@@ -92132,9 +92692,9 @@
       "text": "For SR in 6GR, 1-bit SR for 6GR is supported.\nAt most one of 2-bit SR and CB-PUSCH based BSR will be selected\n- Alt-b: Support both 1-bit SR and 2-bit SR at least carrying quantized buffer size related information for 6GR.",
       "ffs": [],
       "source": {
-        "doc": "Chair notes RAN1#127_v09",
+        "doc": "Chair notes RAN1#127_v12",
         "kind": "chairman_note",
-        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v09.docx",
+        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v12.docx",
         "discussion": "127-R20-6GR-Other signals, channels, and procedures"
       }
     },
@@ -92161,9 +92721,9 @@
       "text": "Support both 1-bit SR and 2-bit SR at least carrying quantized buffer size related information for 6GR.\nNote: No intention to introduce dedicate transmission scheme for supporting 2-bit SR",
       "ffs": [],
       "source": {
-        "doc": "Chair notes RAN1#127_v09",
+        "doc": "Chair notes RAN1#127_v12",
         "kind": "chairman_note",
-        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v09.docx",
+        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v12.docx",
         "discussion": "127-R20-6GR-Other signals, channels, and procedures"
       }
     },
@@ -92193,9 +92753,9 @@
         "FFS whether CLI reporting would follow the same CSI framework"
       ],
       "source": {
-        "doc": "Chair notes RAN1#127_v09",
+        "doc": "Chair notes RAN1#127_v12",
         "kind": "chairman_note",
-        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v09.docx",
+        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v12.docx",
         "discussion": "127-R20-6GR-Other signals, channels, and procedures"
       }
     },
@@ -92222,9 +92782,9 @@
       "text": "Support UE-initiated UE-to-UE CLI (UEI CLI) reporting to the network in 6GR.\n- Note: The details regarding measurement and reporting framework and mechanism are expected to be down-selected during WI.",
       "ffs": [],
       "source": {
-        "doc": "Chair notes RAN1#127_v09",
+        "doc": "Chair notes RAN1#127_v12",
         "kind": "chairman_note",
-        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v09.docx",
+        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v12.docx",
         "discussion": "127-R20-6GR-Other signals, channels, and procedures"
       }
     },
@@ -92251,9 +92811,219 @@
       "text": "For handling BS-to-BS CLI, support non-transparent PUSCH RE muting mechanism for CP OFDM.\n- The design of Rel-19 PUSCH resource muting mechanism is the starting point for design.",
       "ffs": [],
       "source": {
-        "doc": "Chair notes RAN1#127_v09",
+        "doc": "Chair notes RAN1#127_v12",
         "kind": "chairman_note",
-        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v09.docx",
+        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v12.docx",
+        "discussion": "127-R20-6GR-Other signals, channels, and procedures"
+      }
+    },
+    {
+      "id": "RAN1#127:10.5.5:006",
+      "meeting": "RAN1#127",
+      "agenda_item": "10.5.5",
+      "agenda_title": "Other physical layer signals, channels and procedure",
+      "agenda_path": [
+        {
+          "number": "10",
+          "title": "Rel-20 Study of 6GR"
+        },
+        {
+          "number": "10.5",
+          "title": "Multi-antenna system"
+        },
+        {
+          "number": "10.5.5",
+          "title": "Other physical layer signals, channels and procedure"
+        }
+      ],
+      "type": "Agreement",
+      "text": "For SR in 6GR, support 1-bit SR for 6GR.",
+      "ffs": [],
+      "source": {
+        "doc": "Chair notes RAN1#127_v12",
+        "kind": "chairman_note",
+        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v12.docx",
+        "discussion": "127-R20-6GR-Other signals, channels, and procedures"
+      }
+    },
+    {
+      "id": "RAN1#127:10.5.5:007",
+      "meeting": "RAN1#127",
+      "agenda_item": "10.5.5",
+      "agenda_title": "Other physical layer signals, channels and procedure",
+      "agenda_path": [
+        {
+          "number": "10",
+          "title": "Rel-20 Study of 6GR"
+        },
+        {
+          "number": "10.5",
+          "title": "Multi-antenna system"
+        },
+        {
+          "number": "10.5.5",
+          "title": "Other physical layer signals, channels and procedure"
+        }
+      ],
+      "type": "Agreement",
+      "text": "For UE-to-UE CLI measurement and reporting in SBFD:\n- Support UE to measure UE-to-UE CLI-RSSI in DL subband.\n- Support UE to measure CLI-RSSI in UL subband in the time duration of DL reception.\n- FFS whether to support subband CLI-RSSI measurement and reporting.",
+      "ffs": [
+        "FFS whether to support subband CLI-RSSI measurement and reporting."
+      ],
+      "source": {
+        "doc": "Chair notes RAN1#127_v12",
+        "kind": "chairman_note",
+        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v12.docx",
+        "discussion": "127-R20-6GR-Other signals, channels, and procedures"
+      }
+    },
+    {
+      "id": "RAN1#127:10.5.5:008",
+      "meeting": "RAN1#127",
+      "agenda_item": "10.5.5",
+      "agenda_title": "Other physical layer signals, channels and procedure",
+      "agenda_path": [
+        {
+          "number": "10",
+          "title": "Rel-20 Study of 6GR"
+        },
+        {
+          "number": "10.5",
+          "title": "Multi-antenna system"
+        },
+        {
+          "number": "10.5.5",
+          "title": "Other physical layer signals, channels and procedure"
+        }
+      ],
+      "type": "Agreement",
+      "text": "Support UE-initiated UE-to-UE CLI (UEI CLI) reporting to the network in 6GR.\n- This does not require RAN1 to specify RS/channels dedicated for CLI event detection.",
+      "ffs": [],
+      "source": {
+        "doc": "Chair notes RAN1#127_v12",
+        "kind": "chairman_note",
+        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v12.docx",
+        "discussion": "127-R20-6GR-Other signals, channels, and procedures"
+      }
+    },
+    {
+      "id": "RAN1#127:10.5.5:009",
+      "meeting": "RAN1#127",
+      "agenda_item": "10.5.5",
+      "agenda_title": "Other physical layer signals, channels and procedure",
+      "agenda_path": [
+        {
+          "number": "10",
+          "title": "Rel-20 Study of 6GR"
+        },
+        {
+          "number": "10.5",
+          "title": "Multi-antenna system"
+        },
+        {
+          "number": "10.5.5",
+          "title": "Other physical layer signals, channels and procedure"
+        }
+      ],
+      "type": "Agreement",
+      "text": "For handling BS-to-BS CLI, support non-transparent PUSCH resource muting mechanism for CP OFDM and DFT-s-OFDM.\n- The design of Rel-19 PUSCH resource muting mechanism is the starting point for design.",
+      "ffs": [],
+      "source": {
+        "doc": "Chair notes RAN1#127_v12",
+        "kind": "chairman_note",
+        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v12.docx",
+        "discussion": "127-R20-6GR-Other signals, channels, and procedures"
+      }
+    },
+    {
+      "id": "RAN1#127:10.5.5:010",
+      "meeting": "RAN1#127",
+      "agenda_item": "10.5.5",
+      "agenda_title": "Other physical layer signals, channels and procedure",
+      "agenda_path": [
+        {
+          "number": "10",
+          "title": "Rel-20 Study of 6GR"
+        },
+        {
+          "number": "10.5",
+          "title": "Multi-antenna system"
+        },
+        {
+          "number": "10.5.5",
+          "title": "Other physical layer signals, channels and procedure"
+        }
+      ],
+      "type": "Agreement",
+      "text": "The information exchange between BSs for handling BS-to-BS CLI at least supports the following information:\n- The time domain configuration in TDD and time/frequency configuration of SBFD.\n- The configuration of BS-to-BS CLI measurement RS: CSI-RS and 6GR SSB.\n- Non-recommended beam(s), i.e., the strongest DL beam(s) from the victim BS.\n- BS-to-BS CLI mitigation request from the victim BS.\n- Note: no normative behaviour is implied for BS receiving the non-recommended beam(s) or the BS-to-BS CLI mitigation request.\n- FFS other information.",
+      "ffs": [
+        "FFS other information."
+      ],
+      "source": {
+        "doc": "Chair notes RAN1#127_v12",
+        "kind": "chairman_note",
+        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v12.docx",
+        "discussion": "127-R20-6GR-Other signals, channels, and procedures"
+      }
+    },
+    {
+      "id": "RAN1#127:10.5.5:011",
+      "meeting": "RAN1#127",
+      "agenda_item": "10.5.5",
+      "agenda_title": "Other physical layer signals, channels and procedure",
+      "agenda_path": [
+        {
+          "number": "10",
+          "title": "Rel-20 Study of 6GR"
+        },
+        {
+          "number": "10.5",
+          "title": "Multi-antenna system"
+        },
+        {
+          "number": "10.5.5",
+          "title": "Other physical layer signals, channels and procedure"
+        }
+      ],
+      "type": "Agreement",
+      "text": "For the sequence design of RIM RS in 6GR, reuse the 5G RIM RS sequence design.",
+      "ffs": [],
+      "source": {
+        "doc": "Chair notes RAN1#127_v12",
+        "kind": "chairman_note",
+        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v12.docx",
+        "discussion": "127-R20-6GR-Other signals, channels, and procedures"
+      }
+    },
+    {
+      "id": "RAN1#127:10.5.5:012",
+      "meeting": "RAN1#127",
+      "agenda_item": "10.5.5",
+      "agenda_title": "Other physical layer signals, channels and procedure",
+      "agenda_path": [
+        {
+          "number": "10",
+          "title": "Rel-20 Study of 6GR"
+        },
+        {
+          "number": "10.5",
+          "title": "Multi-antenna system"
+        },
+        {
+          "number": "10.5.5",
+          "title": "Other physical layer signals, channels and procedure"
+        }
+      ],
+      "type": "Agreement",
+      "text": "For the frequency domain allocation of RIM RS in 6GR:\n- For 30KHz subcarrier spacing, min{48, bandwidth of DL carrier in number of PRBs} is supported.\n- FFS on 96 PRBs for 30KHz subcarrier spacing.\n- FFS on 15KHz subcarrier spacing",
+      "ffs": [
+        "FFS on 96 PRBs for 30KHz subcarrier spacing.",
+        "FFS on 15KHz subcarrier spacing"
+      ],
+      "source": {
+        "doc": "Chair notes RAN1#127_v12",
+        "kind": "chairman_note",
+        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v12.docx",
         "discussion": "127-R20-6GR-Other signals, channels, and procedures"
       }
     },
@@ -92284,9 +93054,9 @@
       "text": "No DL WUS-specific sync signal is introduced in 6GR.",
       "ffs": [],
       "source": {
-        "doc": "Chair notes RAN1#127_v09",
+        "doc": "Chair notes RAN1#127_v12",
         "kind": "chairman_note",
-        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v09.docx",
+        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v12.docx",
         "discussion": "127-R20-6GR-Design of WUS"
       }
     },
@@ -92319,9 +93089,9 @@
         "FFS: 6 PRBs"
       ],
       "source": {
-        "doc": "Chair notes RAN1#127_v09",
+        "doc": "Chair notes RAN1#127_v12",
         "kind": "chairman_note",
-        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v09.docx",
+        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v12.docx",
         "discussion": "127-R20-6GR-Design of WUS"
       }
     },
@@ -92352,9 +93122,9 @@
       "text": "- The maximum number of transmittable sequence candidates per DL WUS sequence resource per cell is 128.\n  - The maximum number of total information bits is 7.",
       "ffs": [],
       "source": {
-        "doc": "Chair notes RAN1#127_v09",
+        "doc": "Chair notes RAN1#127_v12",
         "kind": "chairman_note",
-        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v09.docx",
+        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v12.docx",
         "discussion": "127-R20-6GR-Design of WUS"
       }
     },
@@ -92385,9 +93155,75 @@
       "text": "- Adopt Zadoff-Chu sequences for 6GR DL WUS as a baseline.\n- Identify the deployment conditions in which Zadoff-Chu sequences sequences do not meet requirements and study solutions thereof.",
       "ffs": [],
       "source": {
-        "doc": "Chair notes RAN1#127_v09",
+        "doc": "Chair notes RAN1#127_v12",
         "kind": "chairman_note",
-        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v09.docx",
+        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v12.docx",
+        "discussion": "127-R20-6GR-Design of WUS"
+      }
+    },
+    {
+      "id": "RAN1#127:10.6.1.1:005",
+      "meeting": "RAN1#127",
+      "agenda_item": "10.6.1.1",
+      "agenda_title": "Design of WUS with OFDM based sequence",
+      "agenda_path": [
+        {
+          "number": "10",
+          "title": "Rel-20 Study of 6GR"
+        },
+        {
+          "number": "10.6",
+          "title": "WUS and operation"
+        },
+        {
+          "number": "10.6.1",
+          "title": "Downlink WUS and operation"
+        },
+        {
+          "number": "10.6.1.1",
+          "title": "Design of WUS with OFDM based sequence"
+        }
+      ],
+      "type": "Agreement",
+      "text": "Provide simulation results for at least the following parameter combinations for above 2 agreed basic scenario:\n| Version | Carrier freq. | # Rx | #target sequence |\n| 1 | 700 MHz | 1 | 2 |\n| 2 | 700 MHz | 1 | 8 |\n| 3 | 700 MHz | 2 | 8 |\n| 4 | 3.5 GHz | 1 | 2 |\n| 5 | 3.5 GHz | 1 | 8 |\n| 6 | 3.5 GHz | 2 | 2 |\n| 7 | 3.5 GHz | 2 | 8 |\n| 8 | 7 GHz | 2 | 2 |\n| 9 | 7 GHz | 2 | 8 |\nCompanies are encouraged to use the following configurations as a baseline:\n| Parameter | Value |\n| MDR & FDR/FAR | 1%, 1% |\n| Max # transmittable candidate sequences per sequence resource | 128 |\n| Total # info bits | 7 |\n| Sequence type | Zadoff-Chu |\n| Seqeunce length | 139/144 |\n| TD extension method | Repetitions |\nFor coverage enhancement evaluations, frequency extension from 12 to 20 PRB replaces a frequency doubling.\nOther configurations are not precluded.",
+      "ffs": [],
+      "source": {
+        "doc": "Chair notes RAN1#127_v12",
+        "kind": "chairman_note",
+        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v12.docx",
+        "discussion": "127-R20-6GR-Design of WUS"
+      }
+    },
+    {
+      "id": "RAN1#127:10.6.1.1:006",
+      "meeting": "RAN1#127",
+      "agenda_item": "10.6.1.1",
+      "agenda_title": "Design of WUS with OFDM based sequence",
+      "agenda_path": [
+        {
+          "number": "10",
+          "title": "Rel-20 Study of 6GR"
+        },
+        {
+          "number": "10.6",
+          "title": "WUS and operation"
+        },
+        {
+          "number": "10.6.1",
+          "title": "Downlink WUS and operation"
+        },
+        {
+          "number": "10.6.1.1",
+          "title": "Design of WUS with OFDM based sequence"
+        }
+      ],
+      "type": "Conclusion",
+      "text": "Sub-symbol sequence mapping (M = 2) is not supported as an overhead reduction technique for DL WUS in Rel-21 6GR.\n6 PRB are not supported as an overhead reduction technique for DL WUS in Rel-21 6GR.",
+      "ffs": [],
+      "source": {
+        "doc": "Chair notes RAN1#127_v12",
+        "kind": "chairman_note",
+        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v12.docx",
         "discussion": "127-R20-6GR-Design of WUS"
       }
     },
@@ -92418,9 +93254,9 @@
       "text": "For evaluating the estimated SINR difference between SINR measured in RRC connected by EE processing and SINR measured in RRC connected by regular processing in RAN1, companies are encouraged to provide results in RAN1#128 with the associated assumptions as listed in the table below.\n|  | Assumed SINR/SNR | The number of measurement samples | measurement interval between two adjacent measurement samples | # of Rx | Sliding window size(us) | Other setting by EE processing if any | The number of measurement samples | measurement interval between two adjacent measurement samples | # of Rx | Sliding window size(us) | Other setting by non-EE processing if any | Delta SINR 1 by EE processing, e.g., max (5% delta SINR, 95% delta SINR) | Delta SINR 2 by regular processing, e.g., max (5% delta SINR, 95% delta SINR) | Delta SINR 3 e.g., max (5% delta SINR, 95% delta SINR) |\n| Companyname-01 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |\nNote:\ndelta SINR1 = estimated SINR by EE processing – ideal SINR \t[dB]\ndelta SINR2 = estimated SINR by regular processing – ideal SINR \t[dB]\ndelta SINR3 = estimated SINR by EE processing - estimated SINR by regular processing  [dB]",
       "ffs": [],
       "source": {
-        "doc": "Chair notes RAN1#127_v09",
+        "doc": "Chair notes RAN1#127_v12",
         "kind": "chairman_note",
-        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v09.docx",
+        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v12.docx",
         "discussion": "127-R20-6GR-WUS operation in RRC states"
       }
     },
@@ -92451,9 +93287,75 @@
       "text": "For studying DL WUS monitoring during active time, the following schemes are considered for performance comparison, e.g., UE energy efficiency gain, UPT, resource overhead, and network complexity:\n- scheme 1: PDCCH skipping during active time\n- scheme 2: SSSG switching during active time\n- scheme 3-1: PDCCH monitoring according to short DRX cycle\n- scheme 3-2: CDRX with long and short DRX cycle enable (where WUS triggers the “onDuration” monitoring)\n- scheme 4-1: C-DRX only\n- scheme 4-2: CDRX with long DRX cycle only (where WUS triggers “onDuration” monitoring).\n- scheme 5: Early termination by DCI/MAC CE",
       "ffs": [],
       "source": {
-        "doc": "Chair notes RAN1#127_v09",
+        "doc": "Chair notes RAN1#127_v12",
         "kind": "chairman_note",
-        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v09.docx",
+        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v12.docx",
+        "discussion": "127-R20-6GR-WUS operation in RRC states"
+      }
+    },
+    {
+      "id": "RAN1#127:10.6.1.2:003",
+      "meeting": "RAN1#127",
+      "agenda_item": "10.6.1.2",
+      "agenda_title": "WUS operation in RRC states",
+      "agenda_path": [
+        {
+          "number": "10",
+          "title": "Rel-20 Study of 6GR"
+        },
+        {
+          "number": "10.6",
+          "title": "WUS and operation"
+        },
+        {
+          "number": "10.6.1",
+          "title": "Downlink WUS and operation"
+        },
+        {
+          "number": "10.6.1.2",
+          "title": "WUS operation in RRC states"
+        }
+      ],
+      "type": "Agreement",
+      "text": "For studying DL WUS monitoring during active time, the following schemes are considered for performance comparison, e.g., UE energy efficiency gain, UPT, resource overhead, network complexity:\n- Baseline: PDCCH monitoring according to C-DRX cycle\n- Scheme 0: DL WUS monitoring during active time\n- Scheme 1: PDCCH skipping during active time\n- Scheme 2: SSSG switching during active time\n- Scheme 3: PDCCH monitoring according to shorter C-DRX cycle\n- Scheme 4: Early termination of active time by network indication\n- Scheme 5: DLWUS monitoring +SSSG switching during active time\n- For all schemes, DL WUS monitoring outside active time is assumed.\n- Note: In addition to C-DRX configuration agreed in 6GR power consumption model, companies can report other C-DRX configuration. Companies use the same C-DRX configuration for scheme 0, scheme1, scheme2, scheme 4, and scheme 5.\n- Companies to report the UE behavior after receiving DL-WUS during active time.\n- Note 1: companies are encouraged to provide results for scheme 0 vs scheme 1, scheme 0 vs scheme 2, scheme 0 vs scheme 3, scheme 0 vs scheme 4, scheme 0 vs scheme 5\n- Note 2: companies to report the assumptions of SSSG monitoring periodicity when applicable.\n- Note 3: the study here focus on the performance of DL WUS monitoring during active time",
+      "ffs": [],
+      "source": {
+        "doc": "Chair notes RAN1#127_v12",
+        "kind": "chairman_note",
+        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v12.docx",
+        "discussion": "127-R20-6GR-WUS operation in RRC states"
+      }
+    },
+    {
+      "id": "RAN1#127:10.6.1.2:004",
+      "meeting": "RAN1#127",
+      "agenda_item": "10.6.1.2",
+      "agenda_title": "WUS operation in RRC states",
+      "agenda_path": [
+        {
+          "number": "10",
+          "title": "Rel-20 Study of 6GR"
+        },
+        {
+          "number": "10.6",
+          "title": "WUS and operation"
+        },
+        {
+          "number": "10.6.1",
+          "title": "Downlink WUS and operation"
+        },
+        {
+          "number": "10.6.1.2",
+          "title": "WUS operation in RRC states"
+        }
+      ],
+      "type": "Agreement",
+      "text": "For DL WUS operation in RRC_CONNECTED state, the DL WUS MOs (if more than one) monitored by a UE are TDMed, and the UE is not required to monitor more than one MO at given time.",
+      "ffs": [],
+      "source": {
+        "doc": "Chair notes RAN1#127_v12",
+        "kind": "chairman_note",
+        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v12.docx",
         "discussion": "127-R20-6GR-WUS operation in RRC states"
       }
     },
@@ -92480,9 +93382,9 @@
       "text": "- At least for UL WUS use cases (if supported) for UEs in idle/inactive mode, 6GR PRACH defined in AI 10.5.1.2 will be selected for UL WUS,\n  - Further study whether enhancements are required beyond 6GR PRACH, e.g., considering\n    - Robustness with respect to UL synchronization error\n    - Detection performance including false alarm rate, missed detection rate, false detection rate, auto/cross correlation properties, etc.\n    - Coverage aspect if aNB receives UL WUS with reduced TRxRUs\n    - UL WUS sequence that can be shared by UEs in the cell/carrier\n    - Detection complexity for BS\n    - Implementation complexity for UE\n    - Cubic metric/PAPR\n    - Number of UL WUS sequences per UL WUS occasion\n    - Shared PRACH and UL WUS occasion (impact to PRACH if shared) or separate PRACH and UL WUS occasions.\n    - Inter-cell interference\n    - UL WUS resource overhead\n    - NW/UE energy consumption",
       "ffs": [],
       "source": {
-        "doc": "Chair notes RAN1#127_v09",
+        "doc": "Chair notes RAN1#127_v12",
         "kind": "chairman_note",
-        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v09.docx",
+        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v12.docx",
         "discussion": "127-R20-6GR-Uplink WUS"
       }
     },
@@ -92509,9 +93411,9 @@
       "text": "There is no consensus in RAN1 to support DL-WUS indicating RACH occasion (RO) adaptation for UEs in RRC_IDLE/RRC_INACTIVE in 6GR Release 21.",
       "ffs": [],
       "source": {
-        "doc": "Chair notes RAN1#127_v09",
+        "doc": "Chair notes RAN1#127_v12",
         "kind": "chairman_note",
-        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v09.docx",
+        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v12.docx",
         "discussion": "127-R20-6GR-WUS operation with other functionalities"
       }
     },
@@ -92541,9 +93443,9 @@
         "FFS whether the same applies to periodic/semi-persistent SRS."
       ],
       "source": {
-        "doc": "Chair notes RAN1#127_v09",
+        "doc": "Chair notes RAN1#127_v12",
         "kind": "chairman_note",
-        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v09.docx",
+        "url": "https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_v12.docx",
         "discussion": "127-R20-6GR-WUS operation with other functionalities"
       }
     }
