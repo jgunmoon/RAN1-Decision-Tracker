@@ -4,10 +4,6 @@
 
 공식 Agenda 기준으로 이 섹션의 결정을 모았습니다. 번호는 최신 회의 기준이며, 회의 간 연결은 같은 섹션 안의 같은 Agenda 제목으로 합니다.
 
-> 이 섹션은 RAN1#126bis 이후 Agenda에 없습니다.
-
-> ⚠️ **RAN1#127는 잠정 결과입니다.** 회의 종료본이 아닌 `Chair notes RAN1#127_v12.docx` 기준이라 결정이 바뀌거나 빠질 수 있습니다. 종료본이 FTP에 올라오면 다음 실행에서 자동으로 교체됩니다.
-
 ## 회의별 결정 수
 
 ```mermaid
@@ -20,15 +16,18 @@ timeline
     RAN1#35;125 : 결정 1
     RAN1#35;126 : 결정 6
     RAN1#35;126bis : 결정 3
+    RAN1#35;127 : 결정 6
 ```
 
-## 최신 회의에는 없는 Agenda
+## 직전 회의 대비 (RAN1#126bis → RAN1#127)
 
-삭제됐거나 제목이 바뀐 Agenda입니다. 제목이 바뀐 경우에도 자동으로 잇지 않으니 위 목록과 비교해 보세요.
+- 신규 결정 6건 (Agreement 4, Working Assumption 0, Conclusion 2)
+- Agenda 신설: 없음
+- Agenda 제외: 없음
 
-### 7 Pre-Rel-19 NR Maintenance (마지막: RAN1#126bis)
+## 7 Pre-Rel-19 NR Maintenance
 
-회의별 결정 수: #122 0 · #122bis 20 · #123 13 · #124 4 · #124bis 4 · #125 1 · #126 6 · #126bis 3 · #127 0
+회의별 결정 수 (하위 Agenda 포함): #122 0 · #122bis 20 · #123 13 · #124 4 · #124bis 4 · #125 1 · #126 6 · #126bis 3 · #127 6
 
 | 회의 | 번호 | 구분 | 내용 | 출처 |
 |---|---|---|---|---|
@@ -83,3 +82,9 @@ timeline
 | RAN1#126bis | 7 | Agreement | The draft CR for TS38.213 in R1-2608719 is endorsed in principle<br>Final CRs in R1-2608738 for Rel-18 and in R1-2608739 for Rel-19 are agreed. | [Chair notes RAN1#126bis_eom1](https://www.3gpp.org/ftp/tsg_ran/WG1_RL1/TSGR1_126b/Inbox/Chair_notes/Chair%20notes%20RAN1%23126bis_eom1.docx)<br>[R1-2608719](https://www.3gpp.org/ftp/tsg_ran/WG1_RL1/TSGR1_126b/Docs/R1-2608719.zip)<br>`[126bis-R19-AI 7]` |
 | RAN1#126bis | 7 | Agreement | The draft CR for TS38.214 in R1-2607238/7239/7240 are endorsed in principle for alignment CR. | [Chair notes RAN1#126bis_eom1](https://www.3gpp.org/ftp/tsg_ran/WG1_RL1/TSGR1_126b/Inbox/Chair_notes/Chair%20notes%20RAN1%23126bis_eom1.docx)<br>[R1-2607238](https://www.3gpp.org/ftp/tsg_ran/WG1_RL1/TSGR1_126b/Docs/R1-2607238.zip)<br>`[126bis-R19-AI 7]` |
 | RAN1#126bis | 7 | Agreement | The draft CR for TS38.214 in R1-2608150/8151/8152 are endorsed in principle for alignment CR. | [Chair notes RAN1#126bis_eom1](https://www.3gpp.org/ftp/tsg_ran/WG1_RL1/TSGR1_126b/Inbox/Chair_notes/Chair%20notes%20RAN1%23126bis_eom1.docx)<br>[R1-2608150](https://www.3gpp.org/ftp/tsg_ran/WG1_RL1/TSGR1_126b/Docs/R1-2608150.zip)<br>`[126bis-R19-AI 7]` |
+| RAN1#127 | 7 | Agreement | Draft CR in R1-2609220 is endorsed in principle for alignment CR | [Chair notes RAN1#127_eom1](https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_eom1.docx)<br>[R1-2609220](https://www.3gpp.org/ftp/tsg_ran/WG1_RL1/TSGR1_127/Docs/R1-2609220.zip)<br>`[127-R19-AI 7]` |
+| RAN1#127 | 7 | Agreement | Draft CR in R1-2609221 is endorsed in principle for alignment CR | [Chair notes RAN1#127_eom1](https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_eom1.docx)<br>[R1-2609221](https://www.3gpp.org/ftp/tsg_ran/WG1_RL1/TSGR1_127/Docs/R1-2609221.zip)<br>`[127-R19-AI 7]` |
+| RAN1#127 | 7 | Agreement | Draft CR in R1-2609298 is endorsed in principle for alignment CR | [Chair notes RAN1#127_eom1](https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_eom1.docx)<br>[R1-2609298](https://www.3gpp.org/ftp/tsg_ran/WG1_RL1/TSGR1_127/Docs/R1-2609298.zip)<br>`[127-R19-AI 7]` |
+| RAN1#127 | 7 | Agreement | Draft CRs in R1-2609654/9655 are endorsed in principle, final CRs in R1-2611000/2611001 are endorsed. | [Chair notes RAN1#127_eom1](https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_eom1.docx)<br>[R1-2609654](https://www.3gpp.org/ftp/tsg_ran/WG1_RL1/TSGR1_127/Docs/R1-2609654.zip)<br>`[127-R19-AI 7]` |
+| RAN1#127 | 7 | Conclusion | When the default number of 8 HARQ processes are applied, only HARQ process number 0~7 should be used<br>- UE assumes the DCI indicating HARQ process number greater than 7 is an error case | [Chair notes RAN1#127_eom1](https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_eom1.docx)<br>[R1-2609993](https://www.3gpp.org/ftp/tsg_ran/WG1_RL1/TSGR1_127/Docs/R1-2609993.zip)<br>`[127-R19-AI 7]` |
+| RAN1#127 | 7 | Conclusion | RAN1 understand that clause 6 (Link recovery procedures) of TS 38.213, Rel-18 onwards specifies:<br>- The power control parameters (e.g., , , , , ) and the corresponding power control adjustment states for determination of a power are reset only for PUSCH/PUCCH/SRS transmissions applying the new beam, i.e., only if  is identified for the corresponding TRP. | [Chair notes RAN1#127_eom1](https://www.3gpp.org/ftp/Meetings_3GPP_SYNC/RAN1/Inbox/Chair_notes/Chair%20notes%20RAN1%23127_eom1.docx)<br>[R1-2610947](https://www.3gpp.org/ftp/tsg_ran/WG1_RL1/TSGR1_127/Docs/R1-2610947.zip)<br>`[127-R19-AI 7]` |
